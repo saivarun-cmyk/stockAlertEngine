@@ -1,0 +1,14 @@
+[
+  {
+    "run_id": "20260705_230044",
+    "timestamp_ist": "2026-07-05T23:00:54.138745+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "no_alerts",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": false
+  }
+]
