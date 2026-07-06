@@ -159,5 +159,36 @@
       "fetch_failed:LTM"
     ],
     "market_open": true
+  },
+  {
+    "run_id": "20260706_141220",
+    "timestamp_ist": "2026-07-06T14:12:27.077925+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 2,
+    "alerts": [
+      {
+        "stock": "NTPC",
+        "symbol": "NTPC.NS",
+        "sector": "Power",
+        "type": "BREAKDOWN",
+        "close": 357.29998779296875,
+        "ema20": 357.4632485483441,
+        "candle_time": "2026-07-06 14:00:00+05:30"
+      },
+      {
+        "stock": "Trent",
+        "symbol": "TRENT.NS",
+        "sector": "Retail",
+        "type": "BREAKOUT",
+        "close": 3345.0,
+        "ema20": 3344.209214363091,
+        "candle_time": "2026-07-06 14:00:00+05:30"
+      }
+    ],
+    "email_status": "no_config",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
