@@ -272,5 +272,27 @@
       "fetch_failed:LTM"
     ],
     "market_open": true
+  },
+  {
+    "run_id": "20260707_142719",
+    "timestamp_ist": "2026-07-07T14:27:30.143154+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 1,
+    "alerts": [
+      {
+        "stock": "Lupin",
+        "symbol": "LUPIN.NS",
+        "sector": "Pharma",
+        "type": "BREAKDOWN",
+        "close": 2486.5,
+        "ema20": 2486.6970324186946,
+        "candle_time": "2026-07-07 14:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
