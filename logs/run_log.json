@@ -396,5 +396,27 @@
       "fetch_failed:LTM"
     ],
     "market_open": true
+  },
+  {
+    "run_id": "20260708_124643",
+    "timestamp_ist": "2026-07-08T12:46:49.662529+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 1,
+    "alerts": [
+      {
+        "stock": "Hero Motocorp",
+        "symbol": "HEROMOTOCO.NS",
+        "sector": "Automobile",
+        "type": "BREAKOUT",
+        "close": 4959.39990234375,
+        "ema20": 4954.077778047702,
+        "candle_time": "2026-07-08 12:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
