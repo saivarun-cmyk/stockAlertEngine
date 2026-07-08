@@ -418,5 +418,54 @@
       "fetch_failed:LTM"
     ],
     "market_open": true
+  },
+  {
+    "run_id": "20260708_152709",
+    "timestamp_ist": "2026-07-08T15:27:17.090278+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 4,
+    "alerts": [
+      {
+        "stock": "National Aluminium",
+        "symbol": "NATIONALUM.NS",
+        "sector": "Metals",
+        "type": "BREAKOUT",
+        "close": 350.79998779296875,
+        "ema20": 349.25341329603623,
+        "candle_time": "2026-07-08 15:00:00+05:30"
+      },
+      {
+        "stock": "Hindalco",
+        "symbol": "HINDALCO.NS",
+        "sector": "Metals",
+        "type": "BREAKOUT",
+        "close": 975.0499877929688,
+        "ema20": 972.2472328459039,
+        "candle_time": "2026-07-08 15:00:00+05:30"
+      },
+      {
+        "stock": "Cummins India",
+        "symbol": "CUMMINSIND.NS",
+        "sector": "Capital Goods",
+        "type": "BREAKOUT",
+        "close": 5504.0,
+        "ema20": 5502.160845328468,
+        "candle_time": "2026-07-08 15:00:00+05:30"
+      },
+      {
+        "stock": "Infosys",
+        "symbol": "INFY.NS",
+        "sector": "IT",
+        "type": "BREAKOUT",
+        "close": 1069.699951171875,
+        "ema20": 1069.5819956467292,
+        "candle_time": "2026-07-08 15:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
