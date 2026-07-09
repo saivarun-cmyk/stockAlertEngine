@@ -614,5 +614,36 @@
       "fetch_failed:LTM"
     ],
     "market_open": true
+  },
+  {
+    "run_id": "20260709_131933",
+    "timestamp_ist": "2026-07-09T13:19:42.566089+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 2,
+    "alerts": [
+      {
+        "stock": "Mphasis",
+        "symbol": "MPHASIS.NS",
+        "sector": "IT",
+        "type": "BREAKDOWN",
+        "close": 2270.60009765625,
+        "ema20": 2270.9499396986175,
+        "candle_time": "2026-07-09 13:00:00+05:30"
+      },
+      {
+        "stock": "Indigo",
+        "symbol": "INDIGO.NS",
+        "sector": "Aviation",
+        "type": "BREAKOUT",
+        "close": 5226.0,
+        "ema20": 5225.182387113858,
+        "candle_time": "2026-07-09 13:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
