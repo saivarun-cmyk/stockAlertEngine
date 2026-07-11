@@ -856,5 +856,15 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20260711_064226",
+    "timestamp_ist": "2026-07-11T06:42:26.981935+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
   }
 ]
