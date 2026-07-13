@@ -1217,5 +1217,45 @@
       "fetch_failed:LTM"
     ],
     "market_open": true
+  },
+  {
+    "run_id": "20260713_131141",
+    "timestamp_ist": "2026-07-13T13:11:49.911201+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 3,
+    "alerts": [
+      {
+        "stock": "BSE",
+        "symbol": "BSE.NS",
+        "sector": "Finance",
+        "type": "BREAKOUT",
+        "close": 3792.699951171875,
+        "ema20": 3789.4004996133262,
+        "candle_time": "2026-07-13 13:00:00+05:30"
+      },
+      {
+        "stock": "Trent",
+        "symbol": "TRENT.NS",
+        "sector": "Retail",
+        "type": "BREAKOUT",
+        "close": 2906.800048828125,
+        "ema20": 2904.804374209497,
+        "candle_time": "2026-07-13 13:00:00+05:30"
+      },
+      {
+        "stock": "Lupin",
+        "symbol": "LUPIN.NS",
+        "sector": "Pharma",
+        "type": "BREAKDOWN",
+        "close": 2494.0,
+        "ema20": 2497.560700684354,
+        "candle_time": "2026-07-13 13:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
