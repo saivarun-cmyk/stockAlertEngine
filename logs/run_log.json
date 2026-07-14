@@ -1396,5 +1396,37 @@
       "fetch_failed:LTM"
     ],
     "market_open": true
+  },
+  {
+    "run_id": "20260714_115701",
+    "timestamp_ist": "2026-07-14T11:57:08.845033+05:30",
+    "stocks_scanned": 39,
+    "alerts_sent": 2,
+    "alerts": [
+      {
+        "stock": "Dixon",
+        "symbol": "DIXON.NS",
+        "sector": "Electronics",
+        "type": "BREAKDOWN",
+        "close": 13397.0,
+        "ema20": 13408.492796450568,
+        "candle_time": "2026-07-14 11:30:00+05:30"
+      },
+      {
+        "stock": "Tata Elxsi",
+        "symbol": "TATAELXSI.NS",
+        "sector": "IT",
+        "type": "BREAKDOWN",
+        "close": 3754.699951171875,
+        "ema20": 3763.99518562162,
+        "candle_time": "2026-07-14 11:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:M&M",
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
