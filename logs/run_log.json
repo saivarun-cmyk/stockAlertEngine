@@ -1428,5 +1428,36 @@
       "fetch_failed:LTM"
     ],
     "market_open": true
+  },
+  {
+    "run_id": "20260714_140841",
+    "timestamp_ist": "2026-07-14T14:08:57.032836+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 2,
+    "alerts": [
+      {
+        "stock": "Infosys",
+        "symbol": "INFY.NS",
+        "sector": "IT",
+        "type": "BREAKDOWN",
+        "close": 1093.300048828125,
+        "ema20": 1093.9667464420136,
+        "candle_time": "2026-07-14 14:00:00+05:30"
+      },
+      {
+        "stock": "Bajaj Finance",
+        "symbol": "BAJFINANCE.NS",
+        "sector": "Finance",
+        "type": "BREAKOUT",
+        "close": 1010.2000122070312,
+        "ema20": 1009.7194923335542,
+        "candle_time": "2026-07-14 14:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
