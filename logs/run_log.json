@@ -1579,5 +1579,45 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20260715_113033",
+    "timestamp_ist": "2026-07-15T11:30:39.726132+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 3,
+    "alerts": [
+      {
+        "stock": "Trent",
+        "symbol": "TRENT.NS",
+        "sector": "Retail",
+        "type": "BREAKDOWN",
+        "close": 2876.300048828125,
+        "ema20": 2878.360455495651,
+        "candle_time": "2026-07-15 11:30:00+05:30"
+      },
+      {
+        "stock": "Polycab",
+        "symbol": "POLYCAB.NS",
+        "sector": "Electronics",
+        "type": "BREAKDOWN",
+        "close": 9415.0,
+        "ema20": 9417.461456531059,
+        "candle_time": "2026-07-15 11:30:00+05:30"
+      },
+      {
+        "stock": "Laurus Labs",
+        "symbol": "LAURUSLABS.NS",
+        "sector": "Pharma",
+        "type": "BREAKOUT",
+        "close": 1560.5,
+        "ema20": 1560.1667012587104,
+        "candle_time": "2026-07-15 11:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
