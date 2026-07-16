@@ -1794,5 +1794,45 @@
       "fetch_failed:LTM"
     ],
     "market_open": true
+  },
+  {
+    "run_id": "20260716_150022",
+    "timestamp_ist": "2026-07-16T15:00:28.304169+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 3,
+    "alerts": [
+      {
+        "stock": "OFSS",
+        "symbol": "OFSS.NS",
+        "sector": "IT",
+        "type": "BREAKDOWN",
+        "close": 11678.0,
+        "ema20": 11695.388830968292,
+        "candle_time": "2026-07-16 15:00:00+05:30"
+      },
+      {
+        "stock": "Infosys",
+        "symbol": "INFY.NS",
+        "sector": "IT",
+        "type": "BREAKDOWN",
+        "close": 1087.5999755859375,
+        "ema20": 1087.8322439357719,
+        "candle_time": "2026-07-16 15:00:00+05:30"
+      },
+      {
+        "stock": "NIFTY 50",
+        "symbol": "^NSEI",
+        "sector": "Index",
+        "type": "BREAKOUT",
+        "close": 24122.400390625,
+        "ema20": 24119.552623977608,
+        "candle_time": "2026-07-16 15:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
