@@ -1741,5 +1741,36 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20260716_094649",
+    "timestamp_ist": "2026-07-16T09:47:07.553930+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 2,
+    "alerts": [
+      {
+        "stock": "Cummins India",
+        "symbol": "CUMMINSIND.NS",
+        "sector": "Capital Goods",
+        "type": "BREAKOUT",
+        "close": 5546.5,
+        "ema20": 5542.880950856813,
+        "candle_time": "2026-07-16 09:30:00+05:30"
+      },
+      {
+        "stock": "Laurus Labs",
+        "symbol": "LAURUSLABS.NS",
+        "sector": "Pharma",
+        "type": "BREAKDOWN",
+        "close": 1557.0999755859375,
+        "ema20": 1558.6403990974127,
+        "candle_time": "2026-07-16 09:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
