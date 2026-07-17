@@ -2121,5 +2121,15 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20260717_225030",
+    "timestamp_ist": "2026-07-17T22:50:30.608739+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
   }
 ]
