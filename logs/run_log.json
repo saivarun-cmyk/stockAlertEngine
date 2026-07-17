@@ -1944,5 +1944,63 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20260717_095954",
+    "timestamp_ist": "2026-07-17T10:00:08.411431+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 5,
+    "alerts": [
+      {
+        "stock": "Hero Motocorp",
+        "symbol": "HEROMOTOCO.NS",
+        "sector": "Automobile",
+        "type": "BREAKDOWN",
+        "close": 4892.39990234375,
+        "ema20": 4901.408496803697,
+        "candle_time": "2026-07-17 09:30:00+05:30"
+      },
+      {
+        "stock": "KPIT Technology",
+        "symbol": "KPITTECH.NS",
+        "sector": "IT",
+        "type": "BREAKDOWN",
+        "close": 550.4000244140625,
+        "ema20": 552.4388482381187,
+        "candle_time": "2026-07-17 09:30:00+05:30"
+      },
+      {
+        "stock": "SHRIRAM Finance",
+        "symbol": "SHRIRAMFIN.NS",
+        "sector": "Finance",
+        "type": "BREAKDOWN",
+        "close": 1028.0999755859375,
+        "ema20": 1028.1812805861007,
+        "candle_time": "2026-07-17 09:30:00+05:30"
+      },
+      {
+        "stock": "HAL",
+        "symbol": "HAL.NS",
+        "sector": "Defence",
+        "type": "BREAKOUT",
+        "close": 4457.2001953125,
+        "ema20": 4440.638121483632,
+        "candle_time": "2026-07-17 09:30:00+05:30"
+      },
+      {
+        "stock": "JSW Steel",
+        "symbol": "JSWSTEEL.NS",
+        "sector": "Metals",
+        "type": "BREAKDOWN",
+        "close": 1226.5,
+        "ema20": 1227.8398047037915,
+        "candle_time": "2026-07-17 09:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
