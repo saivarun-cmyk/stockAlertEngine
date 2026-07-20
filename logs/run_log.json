@@ -2511,5 +2511,72 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20260720_095400",
+    "timestamp_ist": "2026-07-20T09:54:08.965593+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 6,
+    "alerts": [
+      {
+        "stock": "Dixon",
+        "symbol": "DIXON.NS",
+        "sector": "Electronics",
+        "type": "BREAKOUT",
+        "close": 14346.0,
+        "ema20": 14342.181842798085,
+        "candle_time": "2026-07-20 09:30:00+05:30"
+      },
+      {
+        "stock": "National Aluminium",
+        "symbol": "NATIONALUM.NS",
+        "sector": "Metals",
+        "type": "BREAKDOWN",
+        "close": 344.79998779296875,
+        "ema20": 345.46942639984195,
+        "candle_time": "2026-07-20 09:30:00+05:30"
+      },
+      {
+        "stock": "MCX",
+        "symbol": "MCX.NS",
+        "sector": "Finance",
+        "type": "BREAKOUT",
+        "close": 2782.60009765625,
+        "ema20": 2777.535509025264,
+        "candle_time": "2026-07-20 09:30:00+05:30"
+      },
+      {
+        "stock": "Trent",
+        "symbol": "TRENT.NS",
+        "sector": "Retail",
+        "type": "BREAKOUT",
+        "close": 2897.5,
+        "ema20": 2859.9415048015208,
+        "candle_time": "2026-07-20 09:30:00+05:30"
+      },
+      {
+        "stock": "Infosys",
+        "symbol": "INFY.NS",
+        "sector": "IT",
+        "type": "BREAKDOWN",
+        "close": 1094.699951171875,
+        "ema20": 1095.780929381383,
+        "candle_time": "2026-07-20 09:30:00+05:30"
+      },
+      {
+        "stock": "Laurus Labs",
+        "symbol": "LAURUSLABS.NS",
+        "sector": "Pharma",
+        "type": "BREAKOUT",
+        "close": 1540.9000244140625,
+        "ema20": 1537.0558918072409,
+        "candle_time": "2026-07-20 09:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
