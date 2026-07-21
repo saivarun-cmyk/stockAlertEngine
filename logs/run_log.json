@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260706_013047",
-    "timestamp_ist": "2026-07-06T01:30:47.557640+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260706_025856",
     "timestamp_ist": "2026-07-06T02:58:56.462438+05:30",
     "stocks_scanned": 0,
@@ -2725,6 +2715,28 @@
     "alerts_sent": 0,
     "alerts": [],
     "email_status": "no_alerts",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260721_144718",
+    "timestamp_ist": "2026-07-21T14:47:33.872046+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 1,
+    "alerts": [
+      {
+        "stock": "ABB",
+        "symbol": "ABB.NS",
+        "sector": "Capital Goods",
+        "type": "BREAKDOWN",
+        "close": 7512.5,
+        "ema20": 7530.99019505018,
+        "candle_time": "2026-07-21 14:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
     "errors": [
       "fetch_failed:LTM"
     ],
