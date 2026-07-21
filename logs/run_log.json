@@ -1,54 +1,5 @@
 [
   {
-    "run_id": "20260706_094025",
-    "timestamp_ist": "2026-07-06T09:40:32.880382+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 4,
-    "alerts": [
-      {
-        "stock": "VEDL",
-        "symbol": "VEDL.NS",
-        "sector": "Metals",
-        "type": "BREAKDOWN",
-        "close": 279.1000061035156,
-        "ema20": 279.46328073218467,
-        "candle_time": "2026-07-06 09:30:00+05:30"
-      },
-      {
-        "stock": "Siemens",
-        "symbol": "SIEMENS.NS",
-        "sector": "Capital Goods",
-        "type": "BREAKDOWN",
-        "close": 3528.10009765625,
-        "ema20": 3544.0586806619867,
-        "candle_time": "2026-07-06 09:30:00+05:30"
-      },
-      {
-        "stock": "Asian Paints",
-        "symbol": "ASIANPAINT.NS",
-        "sector": "Consumer",
-        "type": "BREAKOUT",
-        "close": 2740.800048828125,
-        "ema20": 2737.7440702659133,
-        "candle_time": "2026-07-06 09:30:00+05:30"
-      },
-      {
-        "stock": "Cummins India",
-        "symbol": "CUMMINSIND.NS",
-        "sector": "Capital Goods",
-        "type": "BREAKDOWN",
-        "close": 5525.0,
-        "ema20": 5525.102518545143,
-        "candle_time": "2026-07-06 09:30:00+05:30"
-      }
-    ],
-    "email_status": "no_config",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260706_114935",
     "timestamp_ist": "2026-07-06T11:49:43.730283+05:30",
     "stocks_scanned": 40,
@@ -2735,6 +2686,16 @@
   {
     "run_id": "20260721_221528",
     "timestamp_ist": "2026-07-21T22:15:28.927251+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260721_233319",
+    "timestamp_ist": "2026-07-21T23:33:19.828816+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
