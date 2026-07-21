@@ -1,17 +1,5 @@
 [
   {
-    "run_id": "20260705_230044",
-    "timestamp_ist": "2026-07-05T23:00:54.138745+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "no_alerts",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": false
-  },
-  {
     "run_id": "20260706_000853",
     "timestamp_ist": "2026-07-06T00:08:53.006309+05:30",
     "stocks_scanned": 0,
@@ -2690,5 +2678,54 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20260721_092006",
+    "timestamp_ist": "2026-07-21T09:20:13.504210+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 4,
+    "alerts": [
+      {
+        "stock": "M&M",
+        "symbol": "M&M.NS",
+        "sector": "Automobile",
+        "type": "BREAKDOWN",
+        "close": 3160.0,
+        "ema20": 3160.8324217902154,
+        "candle_time": "2026-07-21 09:00:00+05:30"
+      },
+      {
+        "stock": "Mphasis",
+        "symbol": "MPHASIS.NS",
+        "sector": "IT",
+        "type": "BREAKOUT",
+        "close": 2427.699951171875,
+        "ema20": 2412.997777791552,
+        "candle_time": "2026-07-21 09:00:00+05:30"
+      },
+      {
+        "stock": "Dixon",
+        "symbol": "DIXON.NS",
+        "sector": "Electronics",
+        "type": "BREAKDOWN",
+        "close": 14291.0,
+        "ema20": 14454.852633567867,
+        "candle_time": "2026-07-21 09:00:00+05:30"
+      },
+      {
+        "stock": "Hindalco",
+        "symbol": "HINDALCO.NS",
+        "sector": "Metals",
+        "type": "BREAKOUT",
+        "close": 953.7999877929688,
+        "ema20": 950.8387474529071,
+        "candle_time": "2026-07-21 09:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
