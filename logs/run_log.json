@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260707_015736",
-    "timestamp_ist": "2026-07-07T01:57:36.452203+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260707_032902",
     "timestamp_ist": "2026-07-07T03:29:02.115554+05:30",
     "stocks_scanned": 0,
@@ -2651,5 +2641,36 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20260722_100527",
+    "timestamp_ist": "2026-07-22T10:05:33.286342+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 2,
+    "alerts": [
+      {
+        "stock": "SHRIRAM Finance",
+        "symbol": "SHRIRAMFIN.NS",
+        "sector": "Finance",
+        "type": "BREAKDOWN",
+        "close": 1051.5,
+        "ema20": 1052.396622567383,
+        "candle_time": "2026-07-22 10:00:00+05:30"
+      },
+      {
+        "stock": "Hindalco",
+        "symbol": "HINDALCO.NS",
+        "sector": "Metals",
+        "type": "BREAKDOWN",
+        "close": 949.0499877929688,
+        "ema20": 949.1168456685089,
+        "candle_time": "2026-07-22 10:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
