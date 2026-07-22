@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260707_044846",
-    "timestamp_ist": "2026-07-07T04:48:46.660185+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260707_064834",
     "timestamp_ist": "2026-07-07T06:48:34.510929+05:30",
     "stocks_scanned": 0,
@@ -2704,6 +2694,100 @@
         "close": 1062.800048828125,
         "ema20": 1062.5193538146395,
         "candle_time": "2026-07-22 12:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260722_153201",
+    "timestamp_ist": "2026-07-22T15:32:16.335263+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 9,
+    "alerts": [
+      {
+        "stock": "Maruti",
+        "symbol": "MARUTI.NS",
+        "sector": "Automobile",
+        "type": "BREAKDOWN",
+        "close": 13526.0,
+        "ema20": 13541.563293139654,
+        "candle_time": "2026-07-22 15:00:00+05:30"
+      },
+      {
+        "stock": "HAL",
+        "symbol": "HAL.NS",
+        "sector": "Defence",
+        "type": "BREAKOUT",
+        "close": 4565.0,
+        "ema20": 4563.783872833923,
+        "candle_time": "2026-07-22 15:00:00+05:30"
+      },
+      {
+        "stock": "JSW Steel",
+        "symbol": "JSWSTEEL.NS",
+        "sector": "Metals",
+        "type": "BREAKDOWN",
+        "close": 1265.199951171875,
+        "ema20": 1266.4842475979046,
+        "candle_time": "2026-07-22 15:00:00+05:30"
+      },
+      {
+        "stock": "National Aluminium",
+        "symbol": "NATIONALUM.NS",
+        "sector": "Metals",
+        "type": "BREAKOUT",
+        "close": 343.54998779296875,
+        "ema20": 342.3382578426652,
+        "candle_time": "2026-07-22 15:00:00+05:30"
+      },
+      {
+        "stock": "Kaynes",
+        "symbol": "KAYNES.NS",
+        "sector": "Electronics",
+        "type": "BREAKOUT",
+        "close": 3266.0,
+        "ema20": 3263.219076152678,
+        "candle_time": "2026-07-22 15:00:00+05:30"
+      },
+      {
+        "stock": "Trent",
+        "symbol": "TRENT.NS",
+        "sector": "Retail",
+        "type": "BREAKOUT",
+        "close": 2893.0,
+        "ema20": 2887.645022233423,
+        "candle_time": "2026-07-22 15:00:00+05:30"
+      },
+      {
+        "stock": "Asian Paints",
+        "symbol": "ASIANPAINT.NS",
+        "sector": "Consumer",
+        "type": "BREAKOUT",
+        "close": 2693.5,
+        "ema20": 2685.6085468287906,
+        "candle_time": "2026-07-22 15:00:00+05:30"
+      },
+      {
+        "stock": "Cummins India",
+        "symbol": "CUMMINSIND.NS",
+        "sector": "Capital Goods",
+        "type": "BREAKOUT",
+        "close": 5593.0,
+        "ema20": 5574.617233005076,
+        "candle_time": "2026-07-22 15:00:00+05:30"
+      },
+      {
+        "stock": "Laurus Labs",
+        "symbol": "LAURUSLABS.NS",
+        "sector": "Pharma",
+        "type": "BREAKDOWN",
+        "close": 1578.5999755859375,
+        "ema20": 1579.1041564867494,
+        "candle_time": "2026-07-22 15:00:00+05:30"
       }
     ],
     "email_status": "both_failed",
