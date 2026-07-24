@@ -1,72 +1,5 @@
 [
   {
-    "run_id": "20260709_092950",
-    "timestamp_ist": "2026-07-09T09:30:01.244927+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 6,
-    "alerts": [
-      {
-        "stock": "Dixon",
-        "symbol": "DIXON.NS",
-        "sector": "Electronics",
-        "type": "BREAKOUT",
-        "close": 13360.0,
-        "ema20": 13141.936675823941,
-        "candle_time": "2026-07-09 09:00:00+05:30"
-      },
-      {
-        "stock": "BHEL",
-        "symbol": "BHEL.NS",
-        "sector": "Capital Goods",
-        "type": "BREAKOUT",
-        "close": 384.20001220703125,
-        "ema20": 380.0880321103304,
-        "candle_time": "2026-07-09 09:00:00+05:30"
-      },
-      {
-        "stock": "National Aluminium",
-        "symbol": "NATIONALUM.NS",
-        "sector": "Metals",
-        "type": "BREAKDOWN",
-        "close": 345.6499938964844,
-        "ema20": 348.98942786479887,
-        "candle_time": "2026-07-09 09:00:00+05:30"
-      },
-      {
-        "stock": "Asian Paints",
-        "symbol": "ASIANPAINT.NS",
-        "sector": "Consumer",
-        "type": "BREAKOUT",
-        "close": 2699.10009765625,
-        "ema20": 2696.7923143010694,
-        "candle_time": "2026-07-09 09:00:00+05:30"
-      },
-      {
-        "stock": "Lupin",
-        "symbol": "LUPIN.NS",
-        "sector": "Pharma",
-        "type": "BREAKOUT",
-        "close": 2492.39990234375,
-        "ema20": 2484.6039632244174,
-        "candle_time": "2026-07-09 09:00:00+05:30"
-      },
-      {
-        "stock": "Laurus Labs",
-        "symbol": "LAURUSLABS.NS",
-        "sector": "Pharma",
-        "type": "BREAKOUT",
-        "close": 1511.0,
-        "ema20": 1479.0881722311703,
-        "candle_time": "2026-07-09 09:00:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260709_131933",
     "timestamp_ist": "2026-07-09T13:19:42.566089+05:30",
     "stocks_scanned": 40,
@@ -2751,5 +2684,27 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20260724_100704",
+    "timestamp_ist": "2026-07-24T10:07:13.752150+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 1,
+    "alerts": [
+      {
+        "stock": "Cummins India",
+        "symbol": "CUMMINSIND.NS",
+        "sector": "Capital Goods",
+        "type": "BREAKDOWN",
+        "close": 5590.0,
+        "ema20": 5592.499357087482,
+        "candle_time": "2026-07-24 10:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
