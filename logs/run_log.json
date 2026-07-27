@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260712_211404",
-    "timestamp_ist": "2026-07-12T21:14:04.892340+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260712_220936",
     "timestamp_ist": "2026-07-12T22:09:36.615760+05:30",
     "stocks_scanned": 0,
@@ -2704,5 +2694,36 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20260727_105731",
+    "timestamp_ist": "2026-07-27T10:57:38.550260+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 2,
+    "alerts": [
+      {
+        "stock": "DLF",
+        "symbol": "DLF.NS",
+        "sector": "Realty",
+        "type": "BREAKDOWN",
+        "close": 645.0999755859375,
+        "ema20": 645.2030486824591,
+        "candle_time": "2026-07-27 10:30:00+05:30"
+      },
+      {
+        "stock": "Bajaj Auto",
+        "symbol": "BAJAJ-AUTO.NS",
+        "sector": "Automobile",
+        "type": "BREAKOUT",
+        "close": 11170.0,
+        "ema20": 11162.952322766982,
+        "candle_time": "2026-07-27 10:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
