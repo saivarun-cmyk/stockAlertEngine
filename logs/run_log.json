@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260715_160017",
-    "timestamp_ist": "2026-07-15T16:00:17.735898+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260715_173455",
     "timestamp_ist": "2026-07-15T17:34:55.543537+05:30",
     "stocks_scanned": 0,
@@ -2652,6 +2642,37 @@
     "alerts_sent": 0,
     "alerts": [],
     "email_status": "no_alerts",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260730_140843",
+    "timestamp_ist": "2026-07-30T14:08:52.314032+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 2,
+    "alerts": [
+      {
+        "stock": "HAL",
+        "symbol": "HAL.NS",
+        "sector": "Defence",
+        "type": "BREAKDOWN",
+        "close": 4565.2998046875,
+        "ema20": 4566.37084828416,
+        "candle_time": "2026-07-30 14:00:00+05:30"
+      },
+      {
+        "stock": "TCS",
+        "symbol": "TCS.NS",
+        "sector": "IT",
+        "type": "BREAKDOWN",
+        "close": 2445.800048828125,
+        "ema20": 2447.713374433355,
+        "candle_time": "2026-07-30 14:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
     "errors": [
       "fetch_failed:LTM"
     ],
