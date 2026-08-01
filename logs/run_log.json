@@ -1,72 +1,5 @@
 [
   {
-    "run_id": "20260717_144842",
-    "timestamp_ist": "2026-07-17T14:48:48.241739+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 6,
-    "alerts": [
-      {
-        "stock": "Indigo",
-        "symbol": "INDIGO.NS",
-        "sector": "Aviation",
-        "type": "BREAKDOWN",
-        "close": 5247.5,
-        "ema20": 5248.402942059687,
-        "candle_time": "2026-07-17 14:30:00+05:30"
-      },
-      {
-        "stock": "JSW Steel",
-        "symbol": "JSWSTEEL.NS",
-        "sector": "Metals",
-        "type": "BREAKOUT",
-        "close": 1236.699951171875,
-        "ema20": 1228.852323035615,
-        "candle_time": "2026-07-17 14:30:00+05:30"
-      },
-      {
-        "stock": "Tata Steel",
-        "symbol": "TATASTEEL.NS",
-        "sector": "Metals",
-        "type": "BREAKOUT",
-        "close": 185.36000061035156,
-        "ema20": 185.27031931775724,
-        "candle_time": "2026-07-17 14:30:00+05:30"
-      },
-      {
-        "stock": "Siemens",
-        "symbol": "SIEMENS.NS",
-        "sector": "Capital Goods",
-        "type": "BREAKOUT",
-        "close": 3652.39990234375,
-        "ema20": 3649.733784632652,
-        "candle_time": "2026-07-17 14:30:00+05:30"
-      },
-      {
-        "stock": "Kaynes",
-        "symbol": "KAYNES.NS",
-        "sector": "Electronics",
-        "type": "BREAKDOWN",
-        "close": 3393.0,
-        "ema20": 3400.8977379408107,
-        "candle_time": "2026-07-17 14:30:00+05:30"
-      },
-      {
-        "stock": "Infosys",
-        "symbol": "INFY.NS",
-        "sector": "IT",
-        "type": "BREAKOUT",
-        "close": 1101.5,
-        "ema20": 1095.9934897899323,
-        "candle_time": "2026-07-17 14:30:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260717_163704",
     "timestamp_ist": "2026-07-17T16:37:04.088628+05:30",
     "stocks_scanned": 0,
@@ -2675,6 +2608,16 @@
   {
     "run_id": "20260801_174426",
     "timestamp_ist": "2026-08-01T17:44:26.309748+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260801_193159",
+    "timestamp_ist": "2026-08-01T19:31:59.411252+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
