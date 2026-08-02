@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260718_214154",
-    "timestamp_ist": "2026-07-18T21:41:54.295316+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260718_224735",
     "timestamp_ist": "2026-07-18T22:47:35.706024+05:30",
     "stocks_scanned": 0,
@@ -2618,6 +2608,16 @@
   {
     "run_id": "20260803_000431",
     "timestamp_ist": "2026-08-03T00:04:31.116918+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260803_012744",
+    "timestamp_ist": "2026-08-03T01:27:44.329661+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
