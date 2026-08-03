@@ -1,15 +1,15 @@
 {
-  "last_run": "2026-08-03T09:38:35.276844+05:30",
+  "last_run": "2026-08-03T13:19:08.943596+05:30",
   "stocks": {
     "M&M": {
       "symbol": "M&M.NS",
       "sector": "Automobile",
       "position": "above",
       "last_cross": "BREAKDOWN",
-      "cross_time": "2026-08-03T09:38:25.120364+05:30",
+      "cross_time": "2026-08-03T13:18:59.065859+05:30",
       "alerted": false,
-      "close": 3403.9,
-      "ema20": 3376.3,
+      "close": 3393.4,
+      "ema20": 3390.09,
       "initialized": true
     },
     "Hero Motocorp": {
@@ -17,10 +17,10 @@
       "sector": "Automobile",
       "position": "above",
       "last_cross": "BREAKOUT",
-      "cross_time": "2026-08-03T09:38:25.281804+05:30",
+      "cross_time": "2026-08-03T13:18:59.226096+05:30",
       "alerted": true,
-      "close": 5428.5,
-      "ema20": 5355.29,
+      "close": 5409.5,
+      "ema20": 5390.84,
       "initialized": true
     },
     "KPIT Technology": {
@@ -28,10 +28,10 @@
       "sector": "IT",
       "position": "above",
       "last_cross": "BREAKOUT",
-      "cross_time": "2026-08-03T09:38:25.430317+05:30",
+      "cross_time": "2026-08-03T13:18:59.454263+05:30",
       "alerted": true,
-      "close": 605.1,
-      "ema20": 597.19,
+      "close": 616.35,
+      "ema20": 606.88,
       "initialized": true
     },
     "Mphasis": {
@@ -39,21 +39,21 @@
       "sector": "IT",
       "position": "above",
       "last_cross": "BREAKOUT",
-      "cross_time": "2026-08-03T09:38:26.704773+05:30",
+      "cross_time": "2026-08-03T13:19:00.201398+05:30",
       "alerted": false,
-      "close": 2353.4,
-      "ema20": 2346.61,
+      "close": 2418.6,
+      "ema20": 2368.22,
       "initialized": true
     },
     "Maruti": {
       "symbol": "MARUTI.NS",
       "sector": "Automobile",
-      "position": "below",
+      "position": "above",
       "last_cross": "BREAKDOWN",
-      "cross_time": "2026-08-03T09:38:27.023680+05:30",
+      "cross_time": "2026-08-03T13:19:00.512485+05:30",
       "alerted": false,
-      "close": 13956.0,
-      "ema20": 14122.68,
+      "close": 14168.0,
+      "ema20": 14141.56,
       "initialized": true
     },
     "DLF": {
@@ -61,10 +61,10 @@
       "sector": "Realty",
       "position": "above",
       "last_cross": "BREAKDOWN",
-      "cross_time": "2026-08-03T09:38:27.281678+05:30",
+      "cross_time": "2026-08-03T13:19:00.711796+05:30",
       "alerted": false,
-      "close": 664.05,
-      "ema20": 660.02,
+      "close": 665.0,
+      "ema20": 663.55,
       "initialized": true
     },
     "Dixon": {
@@ -72,10 +72,10 @@
       "sector": "Electronics",
       "position": "below",
       "last_cross": "BREAKDOWN",
-      "cross_time": "2026-08-03T09:38:27.511302+05:30",
+      "cross_time": "2026-08-03T13:19:00.992734+05:30",
       "alerted": false,
-      "close": 13702.0,
-      "ema20": 14208.31,
+      "close": 13883.0,
+      "ema20": 14080.36,
       "initialized": true
     },
     "SHRIRAM Finance": {
@@ -83,10 +83,10 @@
       "sector": "Finance",
       "position": "above",
       "last_cross": "BREAKOUT",
-      "cross_time": "2026-08-03T09:38:27.679939+05:30",
+      "cross_time": "2026-08-03T13:19:01.210088+05:30",
       "alerted": true,
-      "close": 1070.8,
-      "ema20": 1046.46,
+      "close": 1084.4,
+      "ema20": 1066.19,
       "initialized": true
     },
     "Indigo": {
@@ -94,10 +94,10 @@
       "sector": "Aviation",
       "position": "above",
       "last_cross": "BREAKOUT",
-      "cross_time": "2026-08-03T09:38:27.840447+05:30",
+      "cross_time": "2026-08-03T13:19:01.367044+05:30",
       "alerted": false,
-      "close": 5294.5,
-      "ema20": 5229.8,
+      "close": 5380.0,
+      "ema20": 5302.4,
       "initialized": true
     },
     "Eicher Motors": {
@@ -105,32 +105,32 @@
       "sector": "Automobile",
       "position": "above",
       "last_cross": "BREAKDOWN",
-      "cross_time": "2026-08-03T09:38:28.109685+05:30",
+      "cross_time": "2026-08-03T13:19:01.604739+05:30",
       "alerted": false,
-      "close": 7965.0,
-      "ema20": 7862.74,
+      "close": 8039.0,
+      "ema20": 7943.58,
       "initialized": true
     },
     "Bajaj Auto": {
       "symbol": "BAJAJ-AUTO.NS",
       "sector": "Automobile",
-      "position": "below",
+      "position": "above",
       "last_cross": "BREAKDOWN",
-      "cross_time": "2026-08-03T09:38:28.246355+05:30",
-      "alerted": true,
-      "close": 11493.0,
-      "ema20": 11496.55,
+      "cross_time": "2026-08-03T13:19:01.914521+05:30",
+      "alerted": false,
+      "close": 11501.0,
+      "ema20": 11494.99,
       "initialized": true
     },
     "VEDL": {
       "symbol": "VEDL.NS",
       "sector": "Metals",
-      "position": "above",
+      "position": "below",
       "last_cross": "BREAKDOWN",
-      "cross_time": "2026-08-03T09:38:28.414722+05:30",
+      "cross_time": "2026-08-03T13:19:02.141803+05:30",
       "alerted": false,
-      "close": 267.5,
-      "ema20": 265.74,
+      "close": 265.2,
+      "ema20": 265.91,
       "initialized": true
     },
     "HAL": {
@@ -138,10 +138,10 @@
       "sector": "Defence",
       "position": "above",
       "last_cross": "BREAKDOWN",
-      "cross_time": "2026-08-03T09:38:28.716642+05:30",
+      "cross_time": "2026-08-03T13:19:02.329146+05:30",
       "alerted": false,
-      "close": 4663.6,
-      "ema20": 4630.05,
+      "close": 4671.0,
+      "ema20": 4651.79,
       "initialized": true
     },
     "JSW Steel": {
@@ -149,10 +149,10 @@
       "sector": "Metals",
       "position": "above",
       "last_cross": "BREAKDOWN",
-      "cross_time": "2026-08-03T09:38:28.937943+05:30",
+      "cross_time": "2026-08-03T13:19:02.537486+05:30",
       "alerted": false,
-      "close": 1282.5,
-      "ema20": 1271.43,
+      "close": 1278.6,
+      "ema20": 1273.0,
       "initialized": true
     },
     "LT": {
@@ -160,10 +160,10 @@
       "sector": "Infrastructure",
       "position": "above",
       "last_cross": "BREAKDOWN",
-      "cross_time": "2026-08-03T09:38:29.177347+05:30",
+      "cross_time": "2026-08-03T13:19:02.847230+05:30",
       "alerted": false,
-      "close": 3978.0,
-      "ema20": 3942.55,
+      "close": 4003.3,
+      "ema20": 3967.84,
       "initialized": true
     },
     "SBIN": {
@@ -171,21 +171,21 @@
       "sector": "Banking",
       "position": "above",
       "last_cross": "BREAKOUT",
-      "cross_time": "2026-08-03T09:38:29.425866+05:30",
+      "cross_time": "2026-08-03T13:19:03.065661+05:30",
       "alerted": false,
-      "close": 1040.0,
-      "ema20": 1027.3,
+      "close": 1040.9,
+      "ema20": 1035.95,
       "initialized": true
     },
     "Persistent Systems": {
       "symbol": "PERSISTENT.NS",
       "sector": "IT",
-      "position": "below",
+      "position": "above",
       "last_cross": null,
       "cross_time": null,
       "alerted": false,
-      "close": 5374.0,
-      "ema20": 5492.77,
+      "close": 5553.0,
+      "ema20": 5487.3,
       "initialized": true
     },
     "Tata Steel": {
@@ -193,10 +193,10 @@
       "sector": "Metals",
       "position": "above",
       "last_cross": "BREAKOUT",
-      "cross_time": "2026-08-03T09:38:29.863838+05:30",
+      "cross_time": "2026-08-03T13:19:03.461015+05:30",
       "alerted": false,
-      "close": 190.69,
-      "ema20": 188.79,
+      "close": 190.7,
+      "ema20": 189.57,
       "initialized": true
     },
     "BHEL": {
@@ -204,10 +204,10 @@
       "sector": "Capital Goods",
       "position": "above",
       "last_cross": "BREAKDOWN",
-      "cross_time": "2026-08-03T09:38:30.073972+05:30",
+      "cross_time": "2026-08-03T13:19:03.712325+05:30",
       "alerted": false,
-      "close": 409.8,
-      "ema20": 407.56,
+      "close": 410.6,
+      "ema20": 409.6,
       "initialized": true
     },
     "ABB": {
@@ -215,10 +215,10 @@
       "sector": "Capital Goods",
       "position": "above",
       "last_cross": "BREAKOUT",
-      "cross_time": "2026-08-03T09:38:30.253483+05:30",
+      "cross_time": "2026-08-03T13:19:03.991189+05:30",
       "alerted": true,
-      "close": 7362.0,
-      "ema20": 7358.73,
+      "close": 7522.5,
+      "ema20": 7425.4,
       "initialized": true
     },
     "Siemens": {
@@ -226,10 +226,10 @@
       "sector": "Capital Goods",
       "position": "above",
       "last_cross": "BREAKOUT",
-      "cross_time": "2026-08-03T09:38:30.421344+05:30",
+      "cross_time": "2026-08-03T13:19:04.180144+05:30",
       "alerted": false,
-      "close": 3796.1,
-      "ema20": 3749.55,
+      "close": 3882.0,
+      "ema20": 3809.5,
       "initialized": true
     },
     "NTPC": {
@@ -237,10 +237,10 @@
       "sector": "Power",
       "position": "above",
       "last_cross": "BREAKDOWN",
-      "cross_time": "2026-08-03T09:38:30.608426+05:30",
+      "cross_time": "2026-08-03T13:19:04.380570+05:30",
       "alerted": false,
-      "close": 348.05,
-      "ema20": 345.83,
+      "close": 347.1,
+      "ema20": 346.21,
       "initialized": true
     },
     "National Aluminium": {
@@ -248,10 +248,10 @@
       "sector": "Metals",
       "position": "above",
       "last_cross": "BREAKOUT",
-      "cross_time": "2026-08-03T09:38:30.818668+05:30",
+      "cross_time": "2026-08-03T13:19:04.578239+05:30",
       "alerted": false,
-      "close": 354.95,
-      "ema20": 350.54,
+      "close": 361.6,
+      "ema20": 355.23,
       "initialized": true
     },
     "Kaynes": {
@@ -259,10 +259,10 @@
       "sector": "Electronics",
       "position": "above",
       "last_cross": "BREAKOUT",
-      "cross_time": "2026-08-03T09:38:30.997107+05:30",
+      "cross_time": "2026-08-03T13:19:04.815669+05:30",
       "alerted": true,
-      "close": 3764.0,
-      "ema20": 3745.55,
+      "close": 3814.4,
+      "ema20": 3781.06,
       "initialized": true
     },
     "MCX": {
@@ -270,21 +270,21 @@
       "sector": "Finance",
       "position": "below",
       "last_cross": "BREAKDOWN",
-      "cross_time": "2026-08-03T09:38:31.188444+05:30",
+      "cross_time": "2026-08-03T13:19:05.124097+05:30",
       "alerted": true,
-      "close": 2664.0,
-      "ema20": 2688.57,
+      "close": 2643.0,
+      "ema20": 2670.25,
       "initialized": true
     },
     "BSE": {
       "symbol": "BSE.NS",
       "sector": "Finance",
-      "position": "above",
+      "position": "below",
       "last_cross": "BREAKDOWN",
-      "cross_time": "2026-08-03T09:38:31.427333+05:30",
+      "cross_time": "2026-08-03T13:19:05.341565+05:30",
       "alerted": false,
-      "close": 3655.6,
-      "ema20": 3603.47,
+      "close": 3609.6,
+      "ema20": 3610.26,
       "initialized": true
     },
     "Trent": {
@@ -292,10 +292,10 @@
       "sector": "Retail",
       "position": "above",
       "last_cross": "BREAKOUT",
-      "cross_time": "2026-08-03T09:38:31.574913+05:30",
+      "cross_time": "2026-08-03T13:19:05.579131+05:30",
       "alerted": true,
-      "close": 3018.2,
-      "ema20": 3005.96,
+      "close": 3011.1,
+      "ema20": 3010.6,
       "initialized": true
     },
     "Asian Paints": {
@@ -303,10 +303,10 @@
       "sector": "Consumer",
       "position": "above",
       "last_cross": "BREAKOUT",
-      "cross_time": "2026-08-03T09:38:31.863269+05:30",
+      "cross_time": "2026-08-03T13:19:05.807817+05:30",
       "alerted": false,
-      "close": 2771.5,
-      "ema20": 2750.23,
+      "close": 2768.9,
+      "ema20": 2762.57,
       "initialized": true
     },
     "OFSS": {
@@ -314,10 +314,10 @@
       "sector": "IT",
       "position": "above",
       "last_cross": "BREAKDOWN",
-      "cross_time": "2026-08-03T09:38:32.121385+05:30",
+      "cross_time": "2026-08-03T13:19:06.026710+05:30",
       "alerted": false,
-      "close": 11324.0,
-      "ema20": 11219.28,
+      "close": 11418.0,
+      "ema20": 11302.67,
       "initialized": true
     },
     "Hindalco": {
@@ -325,21 +325,21 @@
       "sector": "Metals",
       "position": "above",
       "last_cross": "BREAKDOWN",
-      "cross_time": "2026-08-03T09:38:32.451586+05:30",
+      "cross_time": "2026-08-03T13:19:06.328420+05:30",
       "alerted": false,
-      "close": 985.5,
-      "ema20": 976.67,
+      "close": 989.35,
+      "ema20": 982.23,
       "initialized": true
     },
     "Cummins India": {
       "symbol": "CUMMINSIND.NS",
       "sector": "Capital Goods",
-      "position": "above",
-      "last_cross": "BREAKOUT",
-      "cross_time": "2026-08-03T09:38:32.751850+05:30",
-      "alerted": false,
-      "close": 5510.5,
-      "ema20": 5491.96,
+      "position": "below",
+      "last_cross": "BREAKDOWN",
+      "cross_time": "2026-08-03T13:19:06.567204+05:30",
+      "alerted": true,
+      "close": 5498.5,
+      "ema20": 5504.24,
       "initialized": true
     },
     "TCS": {
@@ -347,10 +347,10 @@
       "sector": "IT",
       "position": "above",
       "last_cross": "BREAKDOWN",
-      "cross_time": "2026-08-03T09:38:32.960910+05:30",
+      "cross_time": "2026-08-03T13:19:06.826191+05:30",
       "alerted": false,
-      "close": 2395.1,
-      "ema20": 2390.19,
+      "close": 2435.5,
+      "ema20": 2411.29,
       "initialized": true
     },
     "Infosys": {
@@ -358,10 +358,10 @@
       "sector": "IT",
       "position": "above",
       "last_cross": "BREAKDOWN",
-      "cross_time": "2026-08-03T09:38:33.138147+05:30",
+      "cross_time": "2026-08-03T13:19:07.047045+05:30",
       "alerted": false,
-      "close": 1142.5,
-      "ema20": 1139.84,
+      "close": 1165.0,
+      "ema20": 1151.23,
       "initialized": true
     },
     "Tata Elxsi": {
@@ -369,10 +369,10 @@
       "sector": "IT",
       "position": "above",
       "last_cross": "BREAKDOWN",
-      "cross_time": "2026-08-03T09:38:33.347547+05:30",
+      "cross_time": "2026-08-03T13:19:07.264854+05:30",
       "alerted": false,
-      "close": 3712.1,
-      "ema20": 3671.37,
+      "close": 3752.5,
+      "ema20": 3712.33,
       "initialized": true
     },
     "Bajaj Finance": {
@@ -380,21 +380,21 @@
       "sector": "Finance",
       "position": "above",
       "last_cross": "BREAKOUT",
-      "cross_time": "2026-08-03T09:38:33.606026+05:30",
+      "cross_time": "2026-08-03T13:19:07.534382+05:30",
       "alerted": false,
-      "close": 1163.9,
-      "ema20": 1123.12,
+      "close": 1158.4,
+      "ema20": 1139.98,
       "initialized": true
     },
     "Polycab": {
       "symbol": "POLYCAB.NS",
       "sector": "Electronics",
-      "position": "above",
+      "position": "below",
       "last_cross": "BREAKOUT",
-      "cross_time": "2026-08-03T09:38:33.803203+05:30",
-      "alerted": true,
-      "close": 9112.0,
-      "ema20": 9074.21,
+      "cross_time": "2026-08-03T13:19:07.714334+05:30",
+      "alerted": false,
+      "close": 9048.0,
+      "ema20": 9074.57,
       "initialized": true
     },
     "ICICI Bank": {
@@ -402,10 +402,10 @@
       "sector": "Banking",
       "position": "above",
       "last_cross": "BREAKOUT",
-      "cross_time": "2026-08-03T09:38:34.022805+05:30",
+      "cross_time": "2026-08-03T13:19:08.025111+05:30",
       "alerted": true,
-      "close": 1447.7,
-      "ema20": 1435.68,
+      "close": 1445.6,
+      "ema20": 1440.68,
       "initialized": true
     },
     "Lupin": {
@@ -413,10 +413,10 @@
       "sector": "Pharma",
       "position": "below",
       "last_cross": "BREAKDOWN",
-      "cross_time": "2026-08-03T09:38:34.342634+05:30",
+      "cross_time": "2026-08-03T13:19:08.242238+05:30",
       "alerted": true,
-      "close": 2394.6,
-      "ema20": 2415.86,
+      "close": 2365.1,
+      "ema20": 2398.62,
       "initialized": true
     },
     "Laurus Labs": {
@@ -424,10 +424,10 @@
       "sector": "Pharma",
       "position": "above",
       "last_cross": "BREAKDOWN",
-      "cross_time": "2026-08-03T09:38:34.540535+05:30",
+      "cross_time": "2026-08-03T13:19:08.430593+05:30",
       "alerted": false,
-      "close": 1818.0,
-      "ema20": 1807.48,
+      "close": 1826.5,
+      "ema20": 1817.26,
       "initialized": true
     },
     "NIFTY 50": {
@@ -435,10 +435,10 @@
       "sector": "Index",
       "position": "above",
       "last_cross": "BREAKOUT",
-      "cross_time": "2026-08-03T09:38:34.831989+05:30",
+      "cross_time": "2026-08-03T13:19:08.597790+05:30",
       "alerted": false,
-      "close": 24546.65,
-      "ema20": 24380.44,
+      "close": 24584.4,
+      "ema20": 24486.52,
       "initialized": true
     }
   }
