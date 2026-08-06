@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260721_182716",
-    "timestamp_ist": "2026-07-21T18:27:16.460499+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260721_204115",
     "timestamp_ist": "2026-07-21T20:41:15.290443+05:30",
     "stocks_scanned": 0,
@@ -2756,5 +2746,36 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20260806_100216",
+    "timestamp_ist": "2026-08-06T10:02:23.040500+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 2,
+    "alerts": [
+      {
+        "stock": "Siemens",
+        "symbol": "SIEMENS.NS",
+        "sector": "Capital Goods",
+        "type": "BREAKDOWN",
+        "close": 3980.0,
+        "ema20": 3981.4357946751916,
+        "candle_time": "2026-08-06 10:00:00+05:30"
+      },
+      {
+        "stock": "Kaynes",
+        "symbol": "KAYNES.NS",
+        "sector": "Electronics",
+        "type": "BREAKDOWN",
+        "close": 3895.300048828125,
+        "ema20": 3895.8475109495357,
+        "candle_time": "2026-08-06 10:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
