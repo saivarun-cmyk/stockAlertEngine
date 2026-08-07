@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260722_063924",
-    "timestamp_ist": "2026-07-22T06:39:24.140719+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260722_100527",
     "timestamp_ist": "2026-07-22T10:05:33.286342+05:30",
     "stocks_scanned": 40,
@@ -2860,6 +2850,55 @@
         "close": 274.3500061035156,
         "ema20": 274.2999037877241,
         "candle_time": "2026-08-07 10:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260807_121947",
+    "timestamp_ist": "2026-08-07T12:20:02.619978+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 4,
+    "alerts": [
+      {
+        "stock": "Eicher Motors",
+        "symbol": "EICHERMOT.NS",
+        "sector": "Automobile",
+        "type": "BREAKDOWN",
+        "close": 7982.0,
+        "ema20": 7984.232937387026,
+        "candle_time": "2026-08-07 12:00:00+05:30"
+      },
+      {
+        "stock": "National Aluminium",
+        "symbol": "NATIONALUM.NS",
+        "sector": "Metals",
+        "type": "BREAKOUT",
+        "close": 379.5,
+        "ema20": 378.74676221008485,
+        "candle_time": "2026-08-07 12:00:00+05:30"
+      },
+      {
+        "stock": "Polycab",
+        "symbol": "POLYCAB.NS",
+        "sector": "Electronics",
+        "type": "BREAKDOWN",
+        "close": 9255.5,
+        "ema20": 9257.94465262159,
+        "candle_time": "2026-08-07 12:00:00+05:30"
+      },
+      {
+        "stock": "Laurus Labs",
+        "symbol": "LAURUSLABS.NS",
+        "sector": "Pharma",
+        "type": "BREAKOUT",
+        "close": 1845.699951171875,
+        "ema20": 1840.1336102600708,
+        "candle_time": "2026-08-07 12:00:00+05:30"
       }
     ],
     "email_status": "both_failed",
