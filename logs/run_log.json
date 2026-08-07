@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260722_050412",
-    "timestamp_ist": "2026-07-22T05:04:12.539753+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260722_063924",
     "timestamp_ist": "2026-07-22T06:39:24.140719+05:30",
     "stocks_scanned": 0,
@@ -2855,5 +2845,27 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20260807_105454",
+    "timestamp_ist": "2026-08-07T10:55:05.465871+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 1,
+    "alerts": [
+      {
+        "stock": "VEDL",
+        "symbol": "VEDL.NS",
+        "sector": "Metals",
+        "type": "BREAKOUT",
+        "close": 274.3500061035156,
+        "ema20": 274.2999037877241,
+        "candle_time": "2026-08-07 10:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
