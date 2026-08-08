@@ -1,45 +1,5 @@
 [
   {
-    "run_id": "20260724_152748",
-    "timestamp_ist": "2026-07-24T15:27:54.526313+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 3,
-    "alerts": [
-      {
-        "stock": "Indigo",
-        "symbol": "INDIGO.NS",
-        "sector": "Aviation",
-        "type": "BREAKOUT",
-        "close": 4999.0,
-        "ema20": 4982.9674135247005,
-        "candle_time": "2026-07-24 15:00:00+05:30"
-      },
-      {
-        "stock": "LT",
-        "symbol": "LT.NS",
-        "sector": "Infrastructure",
-        "type": "BREAKDOWN",
-        "close": 3786.10009765625,
-        "ema20": 3787.833183025255,
-        "candle_time": "2026-07-24 15:00:00+05:30"
-      },
-      {
-        "stock": "Trent",
-        "symbol": "TRENT.NS",
-        "sector": "Retail",
-        "type": "BREAKOUT",
-        "close": 2891.699951171875,
-        "ema20": 2888.4549448741204,
-        "candle_time": "2026-07-24 15:00:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260724_171958",
     "timestamp_ist": "2026-07-24T17:19:58.488974+05:30",
     "stocks_scanned": 0,
@@ -2714,6 +2674,16 @@
   {
     "run_id": "20260808_164245",
     "timestamp_ist": "2026-08-08T16:42:45.516791+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260808_171718",
+    "timestamp_ist": "2026-08-08T17:17:18.170677+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
