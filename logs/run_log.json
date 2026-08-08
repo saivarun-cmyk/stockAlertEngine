@@ -1,45 +1,5 @@
 [
   {
-    "run_id": "20260724_124956",
-    "timestamp_ist": "2026-07-24T12:50:05.705883+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 3,
-    "alerts": [
-      {
-        "stock": "ABB",
-        "symbol": "ABB.NS",
-        "sector": "Capital Goods",
-        "type": "BREAKDOWN",
-        "close": 7500.0,
-        "ema20": 7531.071297378254,
-        "candle_time": "2026-07-24 12:30:00+05:30"
-      },
-      {
-        "stock": "National Aluminium",
-        "symbol": "NATIONALUM.NS",
-        "sector": "Metals",
-        "type": "BREAKOUT",
-        "close": 343.95001220703125,
-        "ema20": 343.7045611921602,
-        "candle_time": "2026-07-24 12:30:00+05:30"
-      },
-      {
-        "stock": "Polycab",
-        "symbol": "POLYCAB.NS",
-        "sector": "Electronics",
-        "type": "BREAKOUT",
-        "close": 8961.0,
-        "ema20": 8946.43610597876,
-        "candle_time": "2026-07-24 12:30:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260724_152748",
     "timestamp_ist": "2026-07-24T15:27:54.526313+05:30",
     "stocks_scanned": 40,
@@ -2744,6 +2704,16 @@
   {
     "run_id": "20260808_161139",
     "timestamp_ist": "2026-08-08T16:11:39.386450+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260808_164245",
+    "timestamp_ist": "2026-08-08T16:42:45.516791+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
