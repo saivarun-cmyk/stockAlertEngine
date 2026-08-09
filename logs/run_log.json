@@ -1,63 +1,5 @@
 [
   {
-    "run_id": "20260727_142721",
-    "timestamp_ist": "2026-07-27T14:27:27.661234+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 5,
-    "alerts": [
-      {
-        "stock": "DLF",
-        "symbol": "DLF.NS",
-        "sector": "Realty",
-        "type": "BREAKOUT",
-        "close": 646.25,
-        "ema20": 645.2102961117579,
-        "candle_time": "2026-07-27 14:00:00+05:30"
-      },
-      {
-        "stock": "VEDL",
-        "symbol": "VEDL.NS",
-        "sector": "Metals",
-        "type": "BREAKDOWN",
-        "close": 265.29998779296875,
-        "ema20": 265.3741002871449,
-        "candle_time": "2026-07-27 14:00:00+05:30"
-      },
-      {
-        "stock": "Kaynes",
-        "symbol": "KAYNES.NS",
-        "sector": "Electronics",
-        "type": "BREAKOUT",
-        "close": 3204.0,
-        "ema20": 3192.040056852682,
-        "candle_time": "2026-07-27 14:00:00+05:30"
-      },
-      {
-        "stock": "BSE",
-        "symbol": "BSE.NS",
-        "sector": "Finance",
-        "type": "BREAKDOWN",
-        "close": 3542.0,
-        "ema20": 3542.0757977405583,
-        "candle_time": "2026-07-27 14:00:00+05:30"
-      },
-      {
-        "stock": "Cummins India",
-        "symbol": "CUMMINSIND.NS",
-        "sector": "Capital Goods",
-        "type": "BREAKOUT",
-        "close": 5625.5,
-        "ema20": 5608.7721851294655,
-        "candle_time": "2026-07-27 14:00:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260727_180413",
     "timestamp_ist": "2026-07-27T18:04:13.005545+05:30",
     "stocks_scanned": 0,
@@ -2663,6 +2605,16 @@
   {
     "run_id": "20260810_032244",
     "timestamp_ist": "2026-08-10T03:22:44.804516+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260810_040718",
+    "timestamp_ist": "2026-08-10T04:07:18.266371+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
