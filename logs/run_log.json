@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260728_002745",
-    "timestamp_ist": "2026-07-28T00:27:45.682355+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260728_020922",
     "timestamp_ist": "2026-07-28T02:09:22.552726+05:30",
     "stocks_scanned": 0,
@@ -2621,5 +2611,45 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20260810_094435",
+    "timestamp_ist": "2026-08-10T09:44:41.414851+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 3,
+    "alerts": [
+      {
+        "stock": "Eicher Motors",
+        "symbol": "EICHERMOT.NS",
+        "sector": "Automobile",
+        "type": "BREAKDOWN",
+        "close": 7959.0,
+        "ema20": 7990.006770147486,
+        "candle_time": "2026-08-10 09:30:00+05:30"
+      },
+      {
+        "stock": "Asian Paints",
+        "symbol": "ASIANPAINT.NS",
+        "sector": "Consumer",
+        "type": "BREAKDOWN",
+        "close": 2726.699951171875,
+        "ema20": 2729.6773135169883,
+        "candle_time": "2026-08-10 09:30:00+05:30"
+      },
+      {
+        "stock": "OFSS",
+        "symbol": "OFSS.NS",
+        "sector": "IT",
+        "type": "BREAKDOWN",
+        "close": 11745.0,
+        "ema20": 11746.731036254656,
+        "candle_time": "2026-08-10 09:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
