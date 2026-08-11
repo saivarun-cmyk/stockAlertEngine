@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260729_232745",
-    "timestamp_ist": "2026-07-29T23:27:45.176320+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260730_010719",
     "timestamp_ist": "2026-07-30T01:07:19.480316+05:30",
     "stocks_scanned": 0,
@@ -2835,6 +2825,28 @@
         "close": 2441.300048828125,
         "ema20": 2438.933733020751,
         "candle_time": "2026-08-11 13:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260811_143943",
+    "timestamp_ist": "2026-08-11T14:39:54.210565+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 1,
+    "alerts": [
+      {
+        "stock": "TCS",
+        "symbol": "TCS.NS",
+        "sector": "IT",
+        "type": "BREAKDOWN",
+        "close": 2438.10009765625,
+        "ema20": 2439.049263467725,
+        "candle_time": "2026-08-11 14:30:00+05:30"
       }
     ],
     "email_status": "both_failed",
