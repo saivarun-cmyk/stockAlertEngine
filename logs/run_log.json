@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260729_220716",
-    "timestamp_ist": "2026-07-29T22:07:16.540220+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260729_232745",
     "timestamp_ist": "2026-07-29T23:27:45.176320+05:30",
     "stocks_scanned": 0,
@@ -2796,6 +2786,55 @@
         "close": 11809.0,
         "ema20": 11777.537005537522,
         "candle_time": "2026-08-11 12:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260811_132802",
+    "timestamp_ist": "2026-08-11T13:28:10.776442+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 4,
+    "alerts": [
+      {
+        "stock": "KPIT Technology",
+        "symbol": "KPITTECH.NS",
+        "sector": "IT",
+        "type": "BREAKOUT",
+        "close": 629.4500122070312,
+        "ema20": 628.6685823057245,
+        "candle_time": "2026-08-11 13:00:00+05:30"
+      },
+      {
+        "stock": "LT",
+        "symbol": "LT.NS",
+        "sector": "Infrastructure",
+        "type": "BREAKOUT",
+        "close": 4053.800048828125,
+        "ema20": 4050.984063043684,
+        "candle_time": "2026-08-11 13:00:00+05:30"
+      },
+      {
+        "stock": "Trent",
+        "symbol": "TRENT.NS",
+        "sector": "Retail",
+        "type": "BREAKOUT",
+        "close": 3020.0,
+        "ema20": 3016.7985121580596,
+        "candle_time": "2026-08-11 13:00:00+05:30"
+      },
+      {
+        "stock": "TCS",
+        "symbol": "TCS.NS",
+        "sector": "IT",
+        "type": "BREAKOUT",
+        "close": 2441.300048828125,
+        "ema20": 2438.933733020751,
+        "candle_time": "2026-08-11 13:00:00+05:30"
       }
     ],
     "email_status": "both_failed",
