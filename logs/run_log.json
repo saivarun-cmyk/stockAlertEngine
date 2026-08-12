@@ -1,54 +1,5 @@
 [
   {
-    "run_id": "20260731_151942",
-    "timestamp_ist": "2026-07-31T15:19:49.630608+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 4,
-    "alerts": [
-      {
-        "stock": "DLF",
-        "symbol": "DLF.NS",
-        "sector": "Realty",
-        "type": "BREAKDOWN",
-        "close": 659.4000244140625,
-        "ema20": 659.4459601115142,
-        "candle_time": "2026-07-31 15:00:00+05:30"
-      },
-      {
-        "stock": "MCX",
-        "symbol": "MCX.NS",
-        "sector": "Finance",
-        "type": "BREAKDOWN",
-        "close": 2690.199951171875,
-        "ema20": 2693.8175438150715,
-        "candle_time": "2026-07-31 15:00:00+05:30"
-      },
-      {
-        "stock": "Trent",
-        "symbol": "TRENT.NS",
-        "sector": "Retail",
-        "type": "BREAKOUT",
-        "close": 3003.10009765625,
-        "ema20": 3002.707554316955,
-        "candle_time": "2026-07-31 15:00:00+05:30"
-      },
-      {
-        "stock": "Hindalco",
-        "symbol": "HINDALCO.NS",
-        "sector": "Metals",
-        "type": "BREAKDOWN",
-        "close": 974.2000122070312,
-        "ema20": 974.7344435552789,
-        "candle_time": "2026-07-31 15:00:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260731_173518",
     "timestamp_ist": "2026-07-31T17:35:18.248623+05:30",
     "stocks_scanned": 0,
@@ -2921,5 +2872,15 @@
       "fetch_failed:LTM"
     ],
     "market_open": true
+  },
+  {
+    "run_id": "20260812_160631",
+    "timestamp_ist": "2026-08-12T16:06:31.583546+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
   }
 ]
