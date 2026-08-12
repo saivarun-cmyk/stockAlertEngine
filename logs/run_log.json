@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260731_053847",
-    "timestamp_ist": "2026-07-31T05:38:47.449542+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260731_092244",
     "timestamp_ist": "2026-07-31T09:22:54.447682+05:30",
     "stocks_scanned": 40,
@@ -2938,6 +2928,28 @@
         "close": 2730.0,
         "ema20": 2735.4644778196607,
         "candle_time": "2026-08-12 09:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260812_112920",
+    "timestamp_ist": "2026-08-12T11:29:31.287978+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 1,
+    "alerts": [
+      {
+        "stock": "BHEL",
+        "symbol": "BHEL.NS",
+        "sector": "Capital Goods",
+        "type": "BREAKDOWN",
+        "close": 405.25,
+        "ema20": 405.94410120204185,
+        "candle_time": "2026-08-12 11:00:00+05:30"
       }
     ],
     "email_status": "both_failed",
