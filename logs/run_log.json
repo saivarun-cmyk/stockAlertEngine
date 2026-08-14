@@ -1,27 +1,5 @@
 [
   {
-    "run_id": "20260803_131858",
-    "timestamp_ist": "2026-08-03T13:19:08.944629+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 1,
-    "alerts": [
-      {
-        "stock": "Cummins India",
-        "symbol": "CUMMINSIND.NS",
-        "sector": "Capital Goods",
-        "type": "BREAKDOWN",
-        "close": 5498.5,
-        "ema20": 5504.237398437603,
-        "candle_time": "2026-08-03 13:00:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260803_170403",
     "timestamp_ist": "2026-08-03T17:04:03.417164+05:30",
     "stocks_scanned": 0,
@@ -3179,6 +3157,16 @@
   {
     "run_id": "20260814_200245",
     "timestamp_ist": "2026-08-14T20:02:45.830658+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260814_210536",
+    "timestamp_ist": "2026-08-14T21:05:36.735249+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
