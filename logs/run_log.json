@@ -1,72 +1,5 @@
 [
   {
-    "run_id": "20260804_144250",
-    "timestamp_ist": "2026-08-04T14:42:57.100283+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 6,
-    "alerts": [
-      {
-        "stock": "SHRIRAM Finance",
-        "symbol": "SHRIRAMFIN.NS",
-        "sector": "Finance",
-        "type": "BREAKDOWN",
-        "close": 1078.9000244140625,
-        "ema20": 1078.9309925506716,
-        "candle_time": "2026-08-04 14:30:00+05:30"
-      },
-      {
-        "stock": "Bajaj Auto",
-        "symbol": "BAJAJ-AUTO.NS",
-        "sector": "Automobile",
-        "type": "BREAKOUT",
-        "close": 11568.0,
-        "ema20": 11566.089720784967,
-        "candle_time": "2026-08-04 14:30:00+05:30"
-      },
-      {
-        "stock": "LT",
-        "symbol": "LT.NS",
-        "sector": "Infrastructure",
-        "type": "BREAKDOWN",
-        "close": 4004.60009765625,
-        "ema20": 4006.812085977598,
-        "candle_time": "2026-08-04 14:30:00+05:30"
-      },
-      {
-        "stock": "BHEL",
-        "symbol": "BHEL.NS",
-        "sector": "Capital Goods",
-        "type": "BREAKDOWN",
-        "close": 408.6000061035156,
-        "ema20": 409.3845049101618,
-        "candle_time": "2026-08-04 14:30:00+05:30"
-      },
-      {
-        "stock": "Tata Elxsi",
-        "symbol": "TATAELXSI.NS",
-        "sector": "IT",
-        "type": "BREAKDOWN",
-        "close": 3737.5,
-        "ema20": 3740.97410932037,
-        "candle_time": "2026-08-04 14:30:00+05:30"
-      },
-      {
-        "stock": "ICICI Bank",
-        "symbol": "ICICIBANK.NS",
-        "sector": "Banking",
-        "type": "BREAKOUT",
-        "close": 1441.800048828125,
-        "ema20": 1441.5134605350015,
-        "candle_time": "2026-08-04 14:30:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260804_170527",
     "timestamp_ist": "2026-08-04T17:05:27.026852+05:30",
     "stocks_scanned": 0,
@@ -3128,6 +3061,16 @@
   {
     "run_id": "20260815_043143",
     "timestamp_ist": "2026-08-15T04:31:43.615600+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260815_050919",
+    "timestamp_ist": "2026-08-15T05:09:19.929511+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
