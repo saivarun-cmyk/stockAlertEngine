@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260802_214520",
-    "timestamp_ist": "2026-08-02T21:45:20.371414+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260802_225826",
     "timestamp_ist": "2026-08-02T22:58:26.082064+05:30",
     "stocks_scanned": 0,
@@ -3011,5 +3001,63 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20260814_095421",
+    "timestamp_ist": "2026-08-14T09:54:30.176862+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 5,
+    "alerts": [
+      {
+        "stock": "SHRIRAM Finance",
+        "symbol": "SHRIRAMFIN.NS",
+        "sector": "Finance",
+        "type": "BREAKOUT",
+        "close": 1133.0,
+        "ema20": 1129.890295281351,
+        "candle_time": "2026-08-14 09:30:00+05:30"
+      },
+      {
+        "stock": "Bajaj Auto",
+        "symbol": "BAJAJ-AUTO.NS",
+        "sector": "Automobile",
+        "type": "BREAKOUT",
+        "close": 11708.0,
+        "ema20": 11695.781771137425,
+        "candle_time": "2026-08-14 09:30:00+05:30"
+      },
+      {
+        "stock": "MCX",
+        "symbol": "MCX.NS",
+        "sector": "Finance",
+        "type": "BREAKDOWN",
+        "close": 2938.0,
+        "ema20": 2951.796574315587,
+        "candle_time": "2026-08-14 09:30:00+05:30"
+      },
+      {
+        "stock": "Trent",
+        "symbol": "TRENT.NS",
+        "sector": "Retail",
+        "type": "BREAKOUT",
+        "close": 3001.5,
+        "ema20": 2989.5899122183528,
+        "candle_time": "2026-08-14 09:30:00+05:30"
+      },
+      {
+        "stock": "Polycab",
+        "symbol": "POLYCAB.NS",
+        "sector": "Electronics",
+        "type": "BREAKDOWN",
+        "close": 9255.0,
+        "ema20": 9285.529610474858,
+        "candle_time": "2026-08-14 09:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
