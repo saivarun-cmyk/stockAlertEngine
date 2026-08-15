@@ -1,81 +1,5 @@
 [
   {
-    "run_id": "20260805_125631",
-    "timestamp_ist": "2026-08-05T12:56:38.166317+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 7,
-    "alerts": [
-      {
-        "stock": "KPIT Technology",
-        "symbol": "KPITTECH.NS",
-        "sector": "IT",
-        "type": "BREAKDOWN",
-        "close": 622.9000244140625,
-        "ema20": 623.0461948734734,
-        "candle_time": "2026-08-05 12:30:00+05:30"
-      },
-      {
-        "stock": "DLF",
-        "symbol": "DLF.NS",
-        "sector": "Realty",
-        "type": "BREAKDOWN",
-        "close": 657.7999877929688,
-        "ema20": 658.1634767321877,
-        "candle_time": "2026-08-05 12:30:00+05:30"
-      },
-      {
-        "stock": "Indigo",
-        "symbol": "INDIGO.NS",
-        "sector": "Aviation",
-        "type": "BREAKOUT",
-        "close": 5381.0,
-        "ema20": 5380.60406044775,
-        "candle_time": "2026-08-05 12:30:00+05:30"
-      },
-      {
-        "stock": "NTPC",
-        "symbol": "NTPC.NS",
-        "sector": "Power",
-        "type": "BREAKDOWN",
-        "close": 344.25,
-        "ema20": 345.99457196904393,
-        "candle_time": "2026-08-05 12:30:00+05:30"
-      },
-      {
-        "stock": "Trent",
-        "symbol": "TRENT.NS",
-        "sector": "Retail",
-        "type": "BREAKDOWN",
-        "close": 3090.300048828125,
-        "ema20": 3092.2515690295413,
-        "candle_time": "2026-08-05 12:30:00+05:30"
-      },
-      {
-        "stock": "Cummins India",
-        "symbol": "CUMMINSIND.NS",
-        "sector": "Capital Goods",
-        "type": "BREAKDOWN",
-        "close": 5480.0,
-        "ema20": 5525.115474632648,
-        "candle_time": "2026-08-05 12:30:00+05:30"
-      },
-      {
-        "stock": "NIFTY 50",
-        "symbol": "^NSEI",
-        "sector": "Index",
-        "type": "BREAKDOWN",
-        "close": 24526.69921875,
-        "ema20": 24559.373837612042,
-        "candle_time": "2026-08-05 12:30:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260805_154102",
     "timestamp_ist": "2026-08-05T15:41:08.862738+05:30",
     "stocks_scanned": 40,
@@ -3069,6 +2993,16 @@
   {
     "run_id": "20260815_130811",
     "timestamp_ist": "2026-08-15T13:08:11.704428+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260815_133056",
+    "timestamp_ist": "2026-08-15T13:30:56.553674+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
