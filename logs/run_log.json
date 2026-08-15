@@ -1,72 +1,5 @@
 [
   {
-    "run_id": "20260805_154102",
-    "timestamp_ist": "2026-08-05T15:41:08.862738+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 6,
-    "alerts": [
-      {
-        "stock": "Maruti",
-        "symbol": "MARUTI.NS",
-        "sector": "Automobile",
-        "type": "BREAKOUT",
-        "close": 14165.0,
-        "ema20": 14141.719809383081,
-        "candle_time": "2026-08-05 15:00:00+05:30"
-      },
-      {
-        "stock": "ABB",
-        "symbol": "ABB.NS",
-        "sector": "Capital Goods",
-        "type": "BREAKDOWN",
-        "close": 7720.0,
-        "ema20": 7722.154903405247,
-        "candle_time": "2026-08-05 15:00:00+05:30"
-      },
-      {
-        "stock": "Tata Elxsi",
-        "symbol": "TATAELXSI.NS",
-        "sector": "IT",
-        "type": "BREAKDOWN",
-        "close": 3747.0,
-        "ema20": 3750.5637919394912,
-        "candle_time": "2026-08-05 15:00:00+05:30"
-      },
-      {
-        "stock": "ICICI Bank",
-        "symbol": "ICICIBANK.NS",
-        "sector": "Banking",
-        "type": "BREAKOUT",
-        "close": 1444.199951171875,
-        "ema20": 1441.6833937988335,
-        "candle_time": "2026-08-05 15:00:00+05:30"
-      },
-      {
-        "stock": "Laurus Labs",
-        "symbol": "LAURUSLABS.NS",
-        "sector": "Pharma",
-        "type": "BREAKOUT",
-        "close": 1842.0,
-        "ema20": 1839.671072968228,
-        "candle_time": "2026-08-05 15:00:00+05:30"
-      },
-      {
-        "stock": "NIFTY 50",
-        "symbol": "^NSEI",
-        "sector": "Index",
-        "type": "BREAKOUT",
-        "close": 24624.650390625,
-        "ema20": 24552.55039182322,
-        "candle_time": "2026-08-05 15:00:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260805_174846",
     "timestamp_ist": "2026-08-05T17:48:46.264705+05:30",
     "stocks_scanned": 0,
@@ -3003,6 +2936,16 @@
   {
     "run_id": "20260815_133056",
     "timestamp_ist": "2026-08-15T13:30:56.553674+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260815_141714",
+    "timestamp_ist": "2026-08-15T14:17:14.621443+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
