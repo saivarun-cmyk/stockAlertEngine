@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260809_193843",
-    "timestamp_ist": "2026-08-09T19:38:43.586063+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260809_202430",
     "timestamp_ist": "2026-08-09T20:24:30.500357+05:30",
     "stocks_scanned": 0,
@@ -3013,6 +3003,55 @@
     "alerts_sent": 0,
     "alerts": [],
     "email_status": "no_alerts",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260817_135535",
+    "timestamp_ist": "2026-08-17T13:55:48.158287+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 4,
+    "alerts": [
+      {
+        "stock": "M&M",
+        "symbol": "M&M.NS",
+        "sector": "Automobile",
+        "type": "BREAKDOWN",
+        "close": 3408.0,
+        "ema20": 3409.663496406141,
+        "candle_time": "2026-08-17 13:30:00+05:30"
+      },
+      {
+        "stock": "Maruti",
+        "symbol": "MARUTI.NS",
+        "sector": "Automobile",
+        "type": "BREAKDOWN",
+        "close": 13859.0,
+        "ema20": 13884.933917749175,
+        "candle_time": "2026-08-17 13:30:00+05:30"
+      },
+      {
+        "stock": "Bajaj Auto",
+        "symbol": "BAJAJ-AUTO.NS",
+        "sector": "Automobile",
+        "type": "BREAKDOWN",
+        "close": 11716.0,
+        "ema20": 11722.587432837547,
+        "candle_time": "2026-08-17 13:30:00+05:30"
+      },
+      {
+        "stock": "SBIN",
+        "symbol": "SBIN.NS",
+        "sector": "Banking",
+        "type": "BREAKDOWN",
+        "close": 1063.0,
+        "ema20": 1063.8529211994469,
+        "candle_time": "2026-08-17 13:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
     "errors": [
       "fetch_failed:LTM"
     ],
