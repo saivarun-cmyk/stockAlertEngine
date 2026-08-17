@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260809_173509",
-    "timestamp_ist": "2026-08-09T17:35:09.060227+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260809_184712",
     "timestamp_ist": "2026-08-09T18:47:12.220484+05:30",
     "stocks_scanned": 0,
@@ -2942,6 +2932,82 @@
         "close": 5540.0,
         "ema20": 5541.204522573774,
         "candle_time": "2026-08-17 11:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260817_115052",
+    "timestamp_ist": "2026-08-17T11:50:59.545739+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 7,
+    "alerts": [
+      {
+        "stock": "Maruti",
+        "symbol": "MARUTI.NS",
+        "sector": "Automobile",
+        "type": "BREAKOUT",
+        "close": 13891.0,
+        "ema20": 13880.59985304175,
+        "candle_time": "2026-08-17 11:30:00+05:30"
+      },
+      {
+        "stock": "DLF",
+        "symbol": "DLF.NS",
+        "sector": "Realty",
+        "type": "BREAKOUT",
+        "close": 665.0999755859375,
+        "ema20": 663.3592742137232,
+        "candle_time": "2026-08-17 11:30:00+05:30"
+      },
+      {
+        "stock": "VEDL",
+        "symbol": "VEDL.NS",
+        "sector": "Metals",
+        "type": "BREAKOUT",
+        "close": 269.54998779296875,
+        "ema20": 269.32363463106367,
+        "candle_time": "2026-08-17 11:30:00+05:30"
+      },
+      {
+        "stock": "Tata Steel",
+        "symbol": "TATASTEEL.NS",
+        "sector": "Metals",
+        "type": "BREAKOUT",
+        "close": 183.30999755859375,
+        "ema20": 183.16960974903915,
+        "candle_time": "2026-08-17 11:30:00+05:30"
+      },
+      {
+        "stock": "ABB",
+        "symbol": "ABB.NS",
+        "sector": "Capital Goods",
+        "type": "BREAKDOWN",
+        "close": 7689.0,
+        "ema20": 7698.805603985484,
+        "candle_time": "2026-08-17 11:30:00+05:30"
+      },
+      {
+        "stock": "Hindalco",
+        "symbol": "HINDALCO.NS",
+        "sector": "Metals",
+        "type": "BREAKOUT",
+        "close": 1039.5999755859375,
+        "ema20": 1037.8384930229963,
+        "candle_time": "2026-08-17 11:30:00+05:30"
+      },
+      {
+        "stock": "ICICI Bank",
+        "symbol": "ICICIBANK.NS",
+        "sector": "Banking",
+        "type": "BREAKOUT",
+        "close": 1415.199951171875,
+        "ema20": 1412.260374575496,
+        "candle_time": "2026-08-17 11:30:00+05:30"
       }
     ],
     "email_status": "both_failed",
