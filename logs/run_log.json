@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260811_011331",
-    "timestamp_ist": "2026-08-11T01:13:31.232664+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260811_015547",
     "timestamp_ist": "2026-08-11T01:55:47.840234+05:30",
     "stocks_scanned": 0,
@@ -3005,5 +2995,72 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20260818_092958",
+    "timestamp_ist": "2026-08-18T09:30:09.916296+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 6,
+    "alerts": [
+      {
+        "stock": "Maruti",
+        "symbol": "MARUTI.NS",
+        "sector": "Automobile",
+        "type": "BREAKOUT",
+        "close": 13874.0,
+        "ema20": 13865.14131691392,
+        "candle_time": "2026-08-18 09:00:00+05:30"
+      },
+      {
+        "stock": "DLF",
+        "symbol": "DLF.NS",
+        "sector": "Realty",
+        "type": "BREAKDOWN",
+        "close": 661.0,
+        "ema20": 666.8773009364703,
+        "candle_time": "2026-08-18 09:00:00+05:30"
+      },
+      {
+        "stock": "Dixon",
+        "symbol": "DIXON.NS",
+        "sector": "Electronics",
+        "type": "BREAKOUT",
+        "close": 14330.0,
+        "ema20": 14137.14915403522,
+        "candle_time": "2026-08-18 09:00:00+05:30"
+      },
+      {
+        "stock": "Bajaj Auto",
+        "symbol": "BAJAJ-AUTO.NS",
+        "sector": "Automobile",
+        "type": "BREAKOUT",
+        "close": 11741.0,
+        "ema20": 11718.05437832939,
+        "candle_time": "2026-08-18 09:00:00+05:30"
+      },
+      {
+        "stock": "Persistent Systems",
+        "symbol": "PERSISTENT.NS",
+        "sector": "IT",
+        "type": "BREAKDOWN",
+        "close": 5534.0,
+        "ema20": 5561.404648613577,
+        "candle_time": "2026-08-18 09:00:00+05:30"
+      },
+      {
+        "stock": "Lupin",
+        "symbol": "LUPIN.NS",
+        "sector": "Pharma",
+        "type": "BREAKDOWN",
+        "close": 2240.300048828125,
+        "ema20": 2241.790634449648,
+        "candle_time": "2026-08-18 09:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
