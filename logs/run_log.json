@@ -1,63 +1,5 @@
 [
   {
-    "run_id": "20260812_095415",
-    "timestamp_ist": "2026-08-12T09:54:26.337586+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 5,
-    "alerts": [
-      {
-        "stock": "Mphasis",
-        "symbol": "MPHASIS.NS",
-        "sector": "IT",
-        "type": "BREAKDOWN",
-        "close": 2503.10009765625,
-        "ema20": 2514.6053620772414,
-        "candle_time": "2026-08-12 09:30:00+05:30"
-      },
-      {
-        "stock": "NTPC",
-        "symbol": "NTPC.NS",
-        "sector": "Power",
-        "type": "BREAKDOWN",
-        "close": 337.70001220703125,
-        "ema20": 338.4784412465124,
-        "candle_time": "2026-08-12 09:30:00+05:30"
-      },
-      {
-        "stock": "BSE",
-        "symbol": "BSE.NS",
-        "sector": "Finance",
-        "type": "BREAKDOWN",
-        "close": 3554.300048828125,
-        "ema20": 3578.5306279087017,
-        "candle_time": "2026-08-12 09:30:00+05:30"
-      },
-      {
-        "stock": "Trent",
-        "symbol": "TRENT.NS",
-        "sector": "Retail",
-        "type": "BREAKOUT",
-        "close": 3013.800048828125,
-        "ema20": 3013.6122079742026,
-        "candle_time": "2026-08-12 09:30:00+05:30"
-      },
-      {
-        "stock": "Asian Paints",
-        "symbol": "ASIANPAINT.NS",
-        "sector": "Consumer",
-        "type": "BREAKDOWN",
-        "close": 2730.0,
-        "ema20": 2735.4644778196607,
-        "candle_time": "2026-08-12 09:30:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260812_112920",
     "timestamp_ist": "2026-08-12T11:29:31.287978+05:30",
     "stocks_scanned": 40,
@@ -3107,6 +3049,16 @@
   {
     "run_id": "20260819_040519",
     "timestamp_ist": "2026-08-19T04:05:19.735052+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260819_043222",
+    "timestamp_ist": "2026-08-19T04:32:22.607052+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
