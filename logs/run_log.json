@@ -1,45 +1,5 @@
 [
   {
-    "run_id": "20260813_095744",
-    "timestamp_ist": "2026-08-13T09:57:50.221890+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 3,
-    "alerts": [
-      {
-        "stock": "Siemens",
-        "symbol": "SIEMENS.NS",
-        "sector": "Capital Goods",
-        "type": "BREAKDOWN",
-        "close": 3991.0,
-        "ema20": 3998.1099307143854,
-        "candle_time": "2026-08-13 09:30:00+05:30"
-      },
-      {
-        "stock": "National Aluminium",
-        "symbol": "NATIONALUM.NS",
-        "sector": "Metals",
-        "type": "BREAKDOWN",
-        "close": 407.3999938964844,
-        "ema20": 409.1825136401765,
-        "candle_time": "2026-08-13 09:30:00+05:30"
-      },
-      {
-        "stock": "Lupin",
-        "symbol": "LUPIN.NS",
-        "sector": "Pharma",
-        "type": "BREAKDOWN",
-        "close": 2263.800048828125,
-        "ema20": 2265.4762811068636,
-        "candle_time": "2026-08-13 09:30:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260813_113128",
     "timestamp_ist": "2026-08-13T11:31:35.342953+05:30",
     "stocks_scanned": 40,
@@ -3210,6 +3170,16 @@
   {
     "run_id": "20260819_174349",
     "timestamp_ist": "2026-08-19T17:43:49.610896+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260819_184356",
+    "timestamp_ist": "2026-08-19T18:43:56.615700+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
