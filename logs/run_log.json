@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260813_000824",
-    "timestamp_ist": "2026-08-13T00:08:24.515621+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260813_011929",
     "timestamp_ist": "2026-08-13T01:19:29.961055+05:30",
     "stocks_scanned": 0,
@@ -3119,6 +3109,37 @@
         "close": 11675.0,
         "ema20": 11669.3506593208,
         "candle_time": "2026-08-19 13:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260819_141513",
+    "timestamp_ist": "2026-08-19T14:15:21.467317+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 2,
+    "alerts": [
+      {
+        "stock": "Persistent Systems",
+        "symbol": "PERSISTENT.NS",
+        "sector": "IT",
+        "type": "BREAKDOWN",
+        "close": 5516.0,
+        "ema20": 5517.547447512777,
+        "candle_time": "2026-08-19 14:00:00+05:30"
+      },
+      {
+        "stock": "TCS",
+        "symbol": "TCS.NS",
+        "sector": "IT",
+        "type": "BREAKOUT",
+        "close": 2288.300048828125,
+        "ema20": 2284.9916984179968,
+        "candle_time": "2026-08-19 14:00:00+05:30"
       }
     ],
     "email_status": "both_failed",
