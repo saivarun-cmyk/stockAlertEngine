@@ -1,36 +1,5 @@
 [
   {
-    "run_id": "20260814_131510",
-    "timestamp_ist": "2026-08-14T13:15:20.534377+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 2,
-    "alerts": [
-      {
-        "stock": "JSW Steel",
-        "symbol": "JSWSTEEL.NS",
-        "sector": "Metals",
-        "type": "BREAKOUT",
-        "close": 1270.0,
-        "ema20": 1269.0289225899155,
-        "candle_time": "2026-08-14 13:00:00+05:30"
-      },
-      {
-        "stock": "MCX",
-        "symbol": "MCX.NS",
-        "sector": "Finance",
-        "type": "BREAKOUT",
-        "close": 2950.60009765625,
-        "ema20": 2948.2750423958214,
-        "candle_time": "2026-08-14 13:00:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260814_142154",
     "timestamp_ist": "2026-08-14T14:22:00.506046+05:30",
     "stocks_scanned": 40,
@@ -3000,5 +2969,36 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20260820_093042",
+    "timestamp_ist": "2026-08-20T09:30:48.957777+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 2,
+    "alerts": [
+      {
+        "stock": "Maruti",
+        "symbol": "MARUTI.NS",
+        "sector": "Automobile",
+        "type": "BREAKDOWN",
+        "close": 13708.0,
+        "ema20": 13710.388361658854,
+        "candle_time": "2026-08-20 09:30:00+05:30"
+      },
+      {
+        "stock": "SBIN",
+        "symbol": "SBIN.NS",
+        "sector": "Banking",
+        "type": "BREAKOUT",
+        "close": 1050.5999755859375,
+        "ema20": 1050.4423298135393,
+        "candle_time": "2026-08-20 09:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
