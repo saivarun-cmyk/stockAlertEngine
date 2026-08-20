@@ -1,54 +1,5 @@
 [
   {
-    "run_id": "20260814_112856",
-    "timestamp_ist": "2026-08-14T11:29:03.013352+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 4,
-    "alerts": [
-      {
-        "stock": "Maruti",
-        "symbol": "MARUTI.NS",
-        "sector": "Automobile",
-        "type": "BREAKOUT",
-        "close": 13893.0,
-        "ema20": 13883.230232496857,
-        "candle_time": "2026-08-14 11:00:00+05:30"
-      },
-      {
-        "stock": "Persistent Systems",
-        "symbol": "PERSISTENT.NS",
-        "sector": "IT",
-        "type": "BREAKOUT",
-        "close": 5495.0,
-        "ema20": 5488.394973937838,
-        "candle_time": "2026-08-14 11:00:00+05:30"
-      },
-      {
-        "stock": "Cummins India",
-        "symbol": "CUMMINSIND.NS",
-        "sector": "Capital Goods",
-        "type": "BREAKDOWN",
-        "close": 5355.0,
-        "ema20": 5356.498709227259,
-        "candle_time": "2026-08-14 11:00:00+05:30"
-      },
-      {
-        "stock": "Tata Elxsi",
-        "symbol": "TATAELXSI.NS",
-        "sector": "IT",
-        "type": "BREAKOUT",
-        "close": 3761.60009765625,
-        "ema20": 3760.886812379632,
-        "candle_time": "2026-08-14 11:00:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260814_131510",
     "timestamp_ist": "2026-08-14T13:15:20.534377+05:30",
     "stocks_scanned": 40,
@@ -3033,6 +2984,16 @@
   {
     "run_id": "20260820_072256",
     "timestamp_ist": "2026-08-20T07:22:56.643265+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260820_083234",
+    "timestamp_ist": "2026-08-20T08:32:34.384740+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
