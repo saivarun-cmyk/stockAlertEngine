@@ -1,54 +1,5 @@
 [
   {
-    "run_id": "20260814_142154",
-    "timestamp_ist": "2026-08-14T14:22:00.506046+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 4,
-    "alerts": [
-      {
-        "stock": "KPIT Technology",
-        "symbol": "KPITTECH.NS",
-        "sector": "IT",
-        "type": "BREAKDOWN",
-        "close": 615.0,
-        "ema20": 616.1520473337912,
-        "candle_time": "2026-08-14 14:00:00+05:30"
-      },
-      {
-        "stock": "Bajaj Auto",
-        "symbol": "BAJAJ-AUTO.NS",
-        "sector": "Automobile",
-        "type": "BREAKDOWN",
-        "close": 11705.0,
-        "ema20": 11715.663829851317,
-        "candle_time": "2026-08-14 14:00:00+05:30"
-      },
-      {
-        "stock": "Infosys",
-        "symbol": "INFY.NS",
-        "sector": "IT",
-        "type": "BREAKDOWN",
-        "close": 1166.0,
-        "ema20": 1167.6137212266053,
-        "candle_time": "2026-08-14 14:00:00+05:30"
-      },
-      {
-        "stock": "ICICI Bank",
-        "symbol": "ICICIBANK.NS",
-        "sector": "Banking",
-        "type": "BREAKDOWN",
-        "close": 1411.5,
-        "ema20": 1411.5676911181436,
-        "candle_time": "2026-08-14 14:00:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260814_154050",
     "timestamp_ist": "2026-08-14T15:41:06.583855+05:30",
     "stocks_scanned": 40,
@@ -2993,6 +2944,46 @@
         "close": 1050.5999755859375,
         "ema20": 1050.4423298135393,
         "candle_time": "2026-08-20 09:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260820_102457",
+    "timestamp_ist": "2026-08-20T10:25:07.385322+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 3,
+    "alerts": [
+      {
+        "stock": "Eicher Motors",
+        "symbol": "EICHERMOT.NS",
+        "sector": "Automobile",
+        "type": "BREAKDOWN",
+        "close": 8019.5,
+        "ema20": 8022.32528061528,
+        "candle_time": "2026-08-20 10:00:00+05:30"
+      },
+      {
+        "stock": "Tata Steel",
+        "symbol": "TATASTEEL.NS",
+        "sector": "Metals",
+        "type": "BREAKOUT",
+        "close": 184.67999267578125,
+        "ema20": 184.2057950112321,
+        "candle_time": "2026-08-20 10:00:00+05:30"
+      },
+      {
+        "stock": "Siemens",
+        "symbol": "SIEMENS.NS",
+        "sector": "Capital Goods",
+        "type": "BREAKOUT",
+        "close": 3924.800048828125,
+        "ema20": 3916.4737947841345,
+        "candle_time": "2026-08-20 10:00:00+05:30"
       }
     ],
     "email_status": "both_failed",
