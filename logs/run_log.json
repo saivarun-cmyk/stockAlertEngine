@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260814_163936",
-    "timestamp_ist": "2026-08-14T16:39:36.803589+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260814_172853",
     "timestamp_ist": "2026-08-14T17:28:53.804269+05:30",
     "stocks_scanned": 0,
@@ -2957,6 +2947,37 @@
         "close": 2956.5,
         "ema20": 2956.1716212788033,
         "candle_time": "2026-08-20 11:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260820_113457",
+    "timestamp_ist": "2026-08-20T11:35:08.741904+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 2,
+    "alerts": [
+      {
+        "stock": "Hero Motocorp",
+        "symbol": "HEROMOTOCO.NS",
+        "sector": "Automobile",
+        "type": "BREAKOUT",
+        "close": 5712.5,
+        "ema20": 5705.67470197916,
+        "candle_time": "2026-08-20 11:30:00+05:30"
+      },
+      {
+        "stock": "TCS",
+        "symbol": "TCS.NS",
+        "sector": "IT",
+        "type": "BREAKDOWN",
+        "close": 2291.699951171875,
+        "ema20": 2292.839136291965,
+        "candle_time": "2026-08-20 11:30:00+05:30"
       }
     ],
     "email_status": "both_failed",
