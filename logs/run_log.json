@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260815_163035",
-    "timestamp_ist": "2026-08-15T16:30:35.746084+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260815_170516",
     "timestamp_ist": "2026-08-15T17:05:16.471627+05:30",
     "stocks_scanned": 0,
@@ -3180,6 +3170,55 @@
         "close": 2622.5,
         "ema20": 2623.795933860891,
         "candle_time": "2026-08-21 11:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260821_114753",
+    "timestamp_ist": "2026-08-21T11:48:01.848871+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 4,
+    "alerts": [
+      {
+        "stock": "KPIT Technology",
+        "symbol": "KPITTECH.NS",
+        "sector": "IT",
+        "type": "BREAKOUT",
+        "close": 593.2999877929688,
+        "ema20": 592.5460363357128,
+        "candle_time": "2026-08-21 11:30:00+05:30"
+      },
+      {
+        "stock": "Dixon",
+        "symbol": "DIXON.NS",
+        "sector": "Electronics",
+        "type": "BREAKOUT",
+        "close": 14720.0,
+        "ema20": 14685.707082079089,
+        "candle_time": "2026-08-21 11:30:00+05:30"
+      },
+      {
+        "stock": "Bajaj Auto",
+        "symbol": "BAJAJ-AUTO.NS",
+        "sector": "Automobile",
+        "type": "BREAKOUT",
+        "close": 11701.0,
+        "ema20": 11699.609763196922,
+        "candle_time": "2026-08-21 11:30:00+05:30"
+      },
+      {
+        "stock": "JSW Steel",
+        "symbol": "JSWSTEEL.NS",
+        "sector": "Metals",
+        "type": "BREAKDOWN",
+        "close": 1290.9000244140625,
+        "ema20": 1291.487504780891,
+        "candle_time": "2026-08-21 11:30:00+05:30"
       }
     ],
     "email_status": "both_failed",
