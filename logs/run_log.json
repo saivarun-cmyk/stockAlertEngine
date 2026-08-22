@@ -1,126 +1,5 @@
 [
   {
-    "run_id": "20260817_092459",
-    "timestamp_ist": "2026-08-17T09:25:10.757471+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 12,
-    "alerts": [
-      {
-        "stock": "Mphasis",
-        "symbol": "MPHASIS.NS",
-        "sector": "IT",
-        "type": "BREAKDOWN",
-        "close": 2518.0,
-        "ema20": 2527.08640368645,
-        "candle_time": "2026-08-17 09:00:00+05:30"
-      },
-      {
-        "stock": "DLF",
-        "symbol": "DLF.NS",
-        "sector": "Realty",
-        "type": "BREAKDOWN",
-        "close": 662.1500244140625,
-        "ema20": 664.268052126514,
-        "candle_time": "2026-08-17 09:00:00+05:30"
-      },
-      {
-        "stock": "Eicher Motors",
-        "symbol": "EICHERMOT.NS",
-        "sector": "Automobile",
-        "type": "BREAKOUT",
-        "close": 8153.5,
-        "ema20": 8096.187920574155,
-        "candle_time": "2026-08-17 09:00:00+05:30"
-      },
-      {
-        "stock": "Bajaj Auto",
-        "symbol": "BAJAJ-AUTO.NS",
-        "sector": "Automobile",
-        "type": "BREAKOUT",
-        "close": 11738.0,
-        "ema20": 11715.722958506181,
-        "candle_time": "2026-08-17 09:00:00+05:30"
-      },
-      {
-        "stock": "LT",
-        "symbol": "LT.NS",
-        "sector": "Infrastructure",
-        "type": "BREAKDOWN",
-        "close": 4030.0,
-        "ema20": 4045.391828326825,
-        "candle_time": "2026-08-17 09:00:00+05:30"
-      },
-      {
-        "stock": "Tata Steel",
-        "symbol": "TATASTEEL.NS",
-        "sector": "Metals",
-        "type": "BREAKDOWN",
-        "close": 182.52000427246094,
-        "ema20": 183.3070647875199,
-        "candle_time": "2026-08-17 09:00:00+05:30"
-      },
-      {
-        "stock": "NTPC",
-        "symbol": "NTPC.NS",
-        "sector": "Power",
-        "type": "BREAKDOWN",
-        "close": 338.1499938964844,
-        "ema20": 339.6744562339329,
-        "candle_time": "2026-08-17 09:00:00+05:30"
-      },
-      {
-        "stock": "Cummins India",
-        "symbol": "CUMMINSIND.NS",
-        "sector": "Capital Goods",
-        "type": "BREAKDOWN",
-        "close": 5345.0,
-        "ema20": 5378.2961970378055,
-        "candle_time": "2026-08-17 09:00:00+05:30"
-      },
-      {
-        "stock": "TCS",
-        "symbol": "TCS.NS",
-        "sector": "IT",
-        "type": "BREAKDOWN",
-        "close": 2335.699951171875,
-        "ema20": 2355.093872518783,
-        "candle_time": "2026-08-17 09:00:00+05:30"
-      },
-      {
-        "stock": "Infosys",
-        "symbol": "INFY.NS",
-        "sector": "IT",
-        "type": "BREAKDOWN",
-        "close": 1157.0,
-        "ema20": 1166.944147221376,
-        "candle_time": "2026-08-17 09:00:00+05:30"
-      },
-      {
-        "stock": "Laurus Labs",
-        "symbol": "LAURUSLABS.NS",
-        "sector": "Pharma",
-        "type": "BREAKOUT",
-        "close": 1821.699951171875,
-        "ema20": 1821.0078706684099,
-        "candle_time": "2026-08-17 09:00:00+05:30"
-      },
-      {
-        "stock": "NIFTY 50",
-        "symbol": "^NSEI",
-        "sector": "Index",
-        "type": "BREAKDOWN",
-        "close": 24299.099609375,
-        "ema20": 24350.904340455603,
-        "candle_time": "2026-08-17 09:00:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260817_102037",
     "timestamp_ist": "2026-08-17T10:20:48.801633+05:30",
     "stocks_scanned": 40,
@@ -3367,6 +3246,16 @@
   {
     "run_id": "20260823_050048",
     "timestamp_ist": "2026-08-23T05:00:48.857801+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260823_052835",
+    "timestamp_ist": "2026-08-23T05:28:35.583412+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
