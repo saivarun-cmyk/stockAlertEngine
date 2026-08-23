@@ -1,36 +1,5 @@
 [
   {
-    "run_id": "20260818_113339",
-    "timestamp_ist": "2026-08-18T11:33:52.779553+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 2,
-    "alerts": [
-      {
-        "stock": "Tata Steel",
-        "symbol": "TATASTEEL.NS",
-        "sector": "Metals",
-        "type": "BREAKDOWN",
-        "close": 184.5,
-        "ema20": 184.81572052679968,
-        "candle_time": "2026-08-18 11:30:00+05:30"
-      },
-      {
-        "stock": "Trent",
-        "symbol": "TRENT.NS",
-        "sector": "Retail",
-        "type": "BREAKOUT",
-        "close": 2970.699951171875,
-        "ema20": 2964.228728491852,
-        "candle_time": "2026-08-18 11:30:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260818_123605",
     "timestamp_ist": "2026-08-18T12:36:14.563870+05:30",
     "stocks_scanned": 40,
@@ -2849,6 +2818,16 @@
   {
     "run_id": "20260824_032919",
     "timestamp_ist": "2026-08-24T03:29:19.051577+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260824_040231",
+    "timestamp_ist": "2026-08-24T04:02:31.526964+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
