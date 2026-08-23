@@ -1,81 +1,5 @@
 [
   {
-    "run_id": "20260817_152932",
-    "timestamp_ist": "2026-08-17T15:29:40.949364+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 7,
-    "alerts": [
-      {
-        "stock": "M&M",
-        "symbol": "M&M.NS",
-        "sector": "Automobile",
-        "type": "BREAKOUT",
-        "close": 3413.60009765625,
-        "ema20": 3409.9270249043666,
-        "candle_time": "2026-08-17 15:00:00+05:30"
-      },
-      {
-        "stock": "VEDL",
-        "symbol": "VEDL.NS",
-        "sector": "Metals",
-        "type": "BREAKOUT",
-        "close": 269.79998779296875,
-        "ema20": 269.5320337492767,
-        "candle_time": "2026-08-17 15:00:00+05:30"
-      },
-      {
-        "stock": "SBIN",
-        "symbol": "SBIN.NS",
-        "sector": "Banking",
-        "type": "BREAKOUT",
-        "close": 1065.0,
-        "ema20": 1063.8846972132353,
-        "candle_time": "2026-08-17 15:00:00+05:30"
-      },
-      {
-        "stock": "Siemens",
-        "symbol": "SIEMENS.NS",
-        "sector": "Capital Goods",
-        "type": "BREAKOUT",
-        "close": 3960.0,
-        "ema20": 3945.96845796209,
-        "candle_time": "2026-08-17 15:00:00+05:30"
-      },
-      {
-        "stock": "MCX",
-        "symbol": "MCX.NS",
-        "sector": "Finance",
-        "type": "BREAKDOWN",
-        "close": 2946.199951171875,
-        "ema20": 2952.0679979200754,
-        "candle_time": "2026-08-17 15:00:00+05:30"
-      },
-      {
-        "stock": "OFSS",
-        "symbol": "OFSS.NS",
-        "sector": "IT",
-        "type": "BREAKDOWN",
-        "close": 11772.0,
-        "ema20": 11785.144607768414,
-        "candle_time": "2026-08-17 15:00:00+05:30"
-      },
-      {
-        "stock": "NIFTY 50",
-        "symbol": "^NSEI",
-        "sector": "Index",
-        "type": "BREAKDOWN",
-        "close": 24287.650390625,
-        "ema20": 24318.933995090152,
-        "candle_time": "2026-08-17 15:00:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260817_161316",
     "timestamp_ist": "2026-08-17T16:13:16.363073+05:30",
     "stocks_scanned": 0,
@@ -3068,6 +2992,16 @@
   {
     "run_id": "20260823_113348",
     "timestamp_ist": "2026-08-23T11:33:48.435359+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260823_123254",
+    "timestamp_ist": "2026-08-23T12:32:54.468418+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
