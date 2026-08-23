@@ -1,54 +1,5 @@
 [
   {
-    "run_id": "20260818_132538",
-    "timestamp_ist": "2026-08-18T13:25:46.528365+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 4,
-    "alerts": [
-      {
-        "stock": "JSW Steel",
-        "symbol": "JSWSTEEL.NS",
-        "sector": "Metals",
-        "type": "BREAKDOWN",
-        "close": 1273.9000244140625,
-        "ema20": 1275.2319391650778,
-        "candle_time": "2026-08-18 13:00:00+05:30"
-      },
-      {
-        "stock": "Trent",
-        "symbol": "TRENT.NS",
-        "sector": "Retail",
-        "type": "BREAKDOWN",
-        "close": 2948.0,
-        "ema20": 2964.114096852225,
-        "candle_time": "2026-08-18 13:00:00+05:30"
-      },
-      {
-        "stock": "OFSS",
-        "symbol": "OFSS.NS",
-        "sector": "IT",
-        "type": "BREAKOUT",
-        "close": 11792.0,
-        "ema20": 11779.890614160895,
-        "candle_time": "2026-08-18 13:00:00+05:30"
-      },
-      {
-        "stock": "Hindalco",
-        "symbol": "HINDALCO.NS",
-        "sector": "Metals",
-        "type": "BREAKDOWN",
-        "close": 1042.25,
-        "ema20": 1043.192824732399,
-        "candle_time": "2026-08-18 13:00:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260818_141548",
     "timestamp_ist": "2026-08-18T14:15:57.825817+05:30",
     "stocks_scanned": 40,
@@ -2798,6 +2749,16 @@
   {
     "run_id": "20260824_043006",
     "timestamp_ist": "2026-08-24T04:30:06.302140+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260824_050057",
+    "timestamp_ist": "2026-08-24T05:00:57.989035+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
