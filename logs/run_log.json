@@ -1,27 +1,5 @@
 [
   {
-    "run_id": "20260818_141548",
-    "timestamp_ist": "2026-08-18T14:15:57.825817+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 1,
-    "alerts": [
-      {
-        "stock": "Bajaj Finance",
-        "symbol": "BAJFINANCE.NS",
-        "sector": "Finance",
-        "type": "BREAKDOWN",
-        "close": 1090.199951171875,
-        "ema20": 1093.617921653385,
-        "candle_time": "2026-08-18 14:00:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260818_150927",
     "timestamp_ist": "2026-08-18T15:09:33.510712+05:30",
     "stocks_scanned": 40,
@@ -2759,6 +2737,16 @@
   {
     "run_id": "20260824_050057",
     "timestamp_ist": "2026-08-24T05:00:57.989035+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260824_052852",
+    "timestamp_ist": "2026-08-24T05:28:52.703330+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
