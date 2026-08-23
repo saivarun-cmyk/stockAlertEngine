@@ -1,54 +1,5 @@
 [
   {
-    "run_id": "20260817_102037",
-    "timestamp_ist": "2026-08-17T10:20:48.801633+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 4,
-    "alerts": [
-      {
-        "stock": "Eicher Motors",
-        "symbol": "EICHERMOT.NS",
-        "sector": "Automobile",
-        "type": "BREAKDOWN",
-        "close": 8095.0,
-        "ema20": 8095.100488702373,
-        "candle_time": "2026-08-17 10:00:00+05:30"
-      },
-      {
-        "stock": "VEDL",
-        "symbol": "VEDL.NS",
-        "sector": "Metals",
-        "type": "BREAKDOWN",
-        "close": 269.0,
-        "ema20": 269.34673548099863,
-        "candle_time": "2026-08-17 10:00:00+05:30"
-      },
-      {
-        "stock": "Tata Steel",
-        "symbol": "TATASTEEL.NS",
-        "sector": "Metals",
-        "type": "BREAKOUT",
-        "close": 183.3300018310547,
-        "ema20": 183.30076082914476,
-        "candle_time": "2026-08-17 10:00:00+05:30"
-      },
-      {
-        "stock": "Hindalco",
-        "symbol": "HINDALCO.NS",
-        "sector": "Metals",
-        "type": "BREAKDOWN",
-        "close": 1036.3499755859375,
-        "ema20": 1037.788429178712,
-        "candle_time": "2026-08-17 10:00:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260817_110945",
     "timestamp_ist": "2026-08-17T11:09:53.384654+05:30",
     "stocks_scanned": 40,
@@ -3256,6 +3207,16 @@
   {
     "run_id": "20260823_052835",
     "timestamp_ist": "2026-08-23T05:28:35.583412+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260823_072450",
+    "timestamp_ist": "2026-08-23T07:24:50.706997+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
