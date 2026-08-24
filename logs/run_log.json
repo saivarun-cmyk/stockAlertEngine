@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260818_170041",
-    "timestamp_ist": "2026-08-18T17:00:41.717539+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260818_173209",
     "timestamp_ist": "2026-08-18T17:32:09.631524+05:30",
     "stocks_scanned": 0,
@@ -2698,6 +2688,37 @@
         "close": 1802.5999755859375,
         "ema20": 1805.3943831998497,
         "candle_time": "2026-08-24 09:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260824_103321",
+    "timestamp_ist": "2026-08-24T10:33:29.188575+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 2,
+    "alerts": [
+      {
+        "stock": "KPIT Technology",
+        "symbol": "KPITTECH.NS",
+        "sector": "IT",
+        "type": "BREAKDOWN",
+        "close": 592.0499877929688,
+        "ema20": 592.1589054328895,
+        "candle_time": "2026-08-24 10:30:00+05:30"
+      },
+      {
+        "stock": "SHRIRAM Finance",
+        "symbol": "SHRIRAMFIN.NS",
+        "sector": "Finance",
+        "type": "BREAKOUT",
+        "close": 1130.5999755859375,
+        "ema20": 1130.4282966610683,
+        "candle_time": "2026-08-24 10:30:00+05:30"
       }
     ],
     "email_status": "both_failed",
