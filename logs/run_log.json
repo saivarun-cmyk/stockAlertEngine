@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260818_201356",
-    "timestamp_ist": "2026-08-18T20:13:56.061463+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260818_204537",
     "timestamp_ist": "2026-08-18T20:45:37.940880+05:30",
     "stocks_scanned": 0,
@@ -2854,6 +2844,37 @@
         "close": 9010.0,
         "ema20": 9018.743000630626,
         "candle_time": "2026-08-24 13:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260824_143623",
+    "timestamp_ist": "2026-08-24T14:36:35.976768+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 2,
+    "alerts": [
+      {
+        "stock": "Eicher Motors",
+        "symbol": "EICHERMOT.NS",
+        "sector": "Automobile",
+        "type": "BREAKOUT",
+        "close": 8033.0,
+        "ema20": 8030.426659877663,
+        "candle_time": "2026-08-24 14:30:00+05:30"
+      },
+      {
+        "stock": "Persistent Systems",
+        "symbol": "PERSISTENT.NS",
+        "sector": "IT",
+        "type": "BREAKOUT",
+        "close": 5669.5,
+        "ema20": 5668.467809259411,
+        "candle_time": "2026-08-24 14:30:00+05:30"
       }
     ],
     "email_status": "both_failed",
