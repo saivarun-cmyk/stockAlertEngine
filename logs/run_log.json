@@ -1,54 +1,5 @@
 [
   {
-    "run_id": "20260819_102317",
-    "timestamp_ist": "2026-08-19T10:23:24.072935+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 4,
-    "alerts": [
-      {
-        "stock": "M&M",
-        "symbol": "M&M.NS",
-        "sector": "Automobile",
-        "type": "BREAKOUT",
-        "close": 3414.5,
-        "ema20": 3413.8906287732616,
-        "candle_time": "2026-08-19 10:00:00+05:30"
-      },
-      {
-        "stock": "Hero Motocorp",
-        "symbol": "HEROMOTOCO.NS",
-        "sector": "Automobile",
-        "type": "BREAKOUT",
-        "close": 5757.5,
-        "ema20": 5743.445154089965,
-        "candle_time": "2026-08-19 10:00:00+05:30"
-      },
-      {
-        "stock": "Bajaj Auto",
-        "symbol": "BAJAJ-AUTO.NS",
-        "sector": "Automobile",
-        "type": "BREAKOUT",
-        "close": 11666.0,
-        "ema20": 11665.756122320037,
-        "candle_time": "2026-08-19 10:00:00+05:30"
-      },
-      {
-        "stock": "Persistent Systems",
-        "symbol": "PERSISTENT.NS",
-        "sector": "IT",
-        "type": "BREAKDOWN",
-        "close": 5494.0,
-        "ema20": 5514.12730983658,
-        "candle_time": "2026-08-19 10:00:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260819_110601",
     "timestamp_ist": "2026-08-19T11:06:15.980062+05:30",
     "stocks_scanned": 40,
@@ -2913,6 +2864,16 @@
   {
     "run_id": "20260825_050857",
     "timestamp_ist": "2026-08-25T05:08:57.141703+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260825_053035",
+    "timestamp_ist": "2026-08-25T05:30:35.368968+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
