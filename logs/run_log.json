@@ -1,36 +1,5 @@
 [
   {
-    "run_id": "20260819_141513",
-    "timestamp_ist": "2026-08-19T14:15:21.467317+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 2,
-    "alerts": [
-      {
-        "stock": "Persistent Systems",
-        "symbol": "PERSISTENT.NS",
-        "sector": "IT",
-        "type": "BREAKDOWN",
-        "close": 5516.0,
-        "ema20": 5517.547447512777,
-        "candle_time": "2026-08-19 14:00:00+05:30"
-      },
-      {
-        "stock": "TCS",
-        "symbol": "TCS.NS",
-        "sector": "IT",
-        "type": "BREAKOUT",
-        "close": 2288.300048828125,
-        "ema20": 2284.9916984179968,
-        "candle_time": "2026-08-19 14:00:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260819_144828",
     "timestamp_ist": "2026-08-19T14:48:38.782812+05:30",
     "stocks_scanned": 40,
@@ -2868,6 +2837,37 @@
         "close": 1412.9000244140625,
         "ema20": 1415.4447929858557,
         "candle_time": "2026-08-25 10:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260825_110728",
+    "timestamp_ist": "2026-08-25T11:07:41.082366+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 2,
+    "alerts": [
+      {
+        "stock": "SBIN",
+        "symbol": "SBIN.NS",
+        "sector": "Banking",
+        "type": "BREAKDOWN",
+        "close": 1038.699951171875,
+        "ema20": 1038.8376544966272,
+        "candle_time": "2026-08-25 11:00:00+05:30"
+      },
+      {
+        "stock": "BHEL",
+        "symbol": "BHEL.NS",
+        "sector": "Capital Goods",
+        "type": "BREAKOUT",
+        "close": 411.3999938964844,
+        "ema20": 411.28985058444425,
+        "candle_time": "2026-08-25 11:00:00+05:30"
       }
     ],
     "email_status": "both_failed",
