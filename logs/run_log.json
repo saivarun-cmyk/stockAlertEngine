@@ -1,36 +1,5 @@
 [
   {
-    "run_id": "20260819_132525",
-    "timestamp_ist": "2026-08-19T13:25:40.569313+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 2,
-    "alerts": [
-      {
-        "stock": "M&M",
-        "symbol": "M&M.NS",
-        "sector": "Automobile",
-        "type": "BREAKOUT",
-        "close": 3417.0,
-        "ema20": 3416.12263554004,
-        "candle_time": "2026-08-19 13:00:00+05:30"
-      },
-      {
-        "stock": "Bajaj Auto",
-        "symbol": "BAJAJ-AUTO.NS",
-        "sector": "Automobile",
-        "type": "BREAKOUT",
-        "close": 11675.0,
-        "ema20": 11669.3506593208,
-        "candle_time": "2026-08-19 13:00:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260819_141513",
     "timestamp_ist": "2026-08-19T14:15:21.467317+05:30",
     "stocks_scanned": 40,
@@ -2832,6 +2801,73 @@
         "close": 1040.5999755859375,
         "ema20": 1039.5395330646832,
         "candle_time": "2026-08-25 09:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260825_102546",
+    "timestamp_ist": "2026-08-25T10:25:59.028061+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 6,
+    "alerts": [
+      {
+        "stock": "Bajaj Auto",
+        "symbol": "BAJAJ-AUTO.NS",
+        "sector": "Automobile",
+        "type": "BREAKDOWN",
+        "close": 11762.0,
+        "ema20": 11770.88209287596,
+        "candle_time": "2026-08-25 10:00:00+05:30"
+      },
+      {
+        "stock": "Tata Steel",
+        "symbol": "TATASTEEL.NS",
+        "sector": "Metals",
+        "type": "BREAKDOWN",
+        "close": 184.1999969482422,
+        "ema20": 184.77498448818815,
+        "candle_time": "2026-08-25 10:00:00+05:30"
+      },
+      {
+        "stock": "ABB",
+        "symbol": "ABB.NS",
+        "sector": "Capital Goods",
+        "type": "BREAKOUT",
+        "close": 7503.5,
+        "ema20": 7490.869398172122,
+        "candle_time": "2026-08-25 10:00:00+05:30"
+      },
+      {
+        "stock": "Cummins India",
+        "symbol": "CUMMINSIND.NS",
+        "sector": "Capital Goods",
+        "type": "BREAKDOWN",
+        "close": 5154.5,
+        "ema20": 5156.5502444072135,
+        "candle_time": "2026-08-25 10:00:00+05:30"
+      },
+      {
+        "stock": "Polycab",
+        "symbol": "POLYCAB.NS",
+        "sector": "Electronics",
+        "type": "BREAKDOWN",
+        "close": 9028.0,
+        "ema20": 9030.992946459019,
+        "candle_time": "2026-08-25 10:00:00+05:30"
+      },
+      {
+        "stock": "ICICI Bank",
+        "symbol": "ICICIBANK.NS",
+        "sector": "Banking",
+        "type": "BREAKDOWN",
+        "close": 1412.9000244140625,
+        "ema20": 1415.4447929858557,
+        "candle_time": "2026-08-25 10:00:00+05:30"
       }
     ],
     "email_status": "both_failed",
