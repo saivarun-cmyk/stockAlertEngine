@@ -1,36 +1,5 @@
 [
   {
-    "run_id": "20260819_144828",
-    "timestamp_ist": "2026-08-19T14:48:38.782812+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 2,
-    "alerts": [
-      {
-        "stock": "DLF",
-        "symbol": "DLF.NS",
-        "sector": "Realty",
-        "type": "BREAKDOWN",
-        "close": 670.25,
-        "ema20": 670.3306139171822,
-        "candle_time": "2026-08-19 14:30:00+05:30"
-      },
-      {
-        "stock": "TCS",
-        "symbol": "TCS.NS",
-        "sector": "IT",
-        "type": "BREAKDOWN",
-        "close": 2282.199951171875,
-        "ema20": 2284.4586891316603,
-        "candle_time": "2026-08-19 14:30:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260819_152959",
     "timestamp_ist": "2026-08-19T15:30:13.396329+05:30",
     "stocks_scanned": 40,
@@ -2868,6 +2837,55 @@
         "close": 411.3999938964844,
         "ema20": 411.28985058444425,
         "candle_time": "2026-08-25 11:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260825_114707",
+    "timestamp_ist": "2026-08-25T11:47:20.416028+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 4,
+    "alerts": [
+      {
+        "stock": "DLF",
+        "symbol": "DLF.NS",
+        "sector": "Realty",
+        "type": "BREAKOUT",
+        "close": 683.75,
+        "ema20": 682.5842237349787,
+        "candle_time": "2026-08-25 11:30:00+05:30"
+      },
+      {
+        "stock": "Hindalco",
+        "symbol": "HINDALCO.NS",
+        "sector": "Metals",
+        "type": "BREAKOUT",
+        "close": 1048.550048828125,
+        "ema20": 1047.3375523080094,
+        "candle_time": "2026-08-25 11:30:00+05:30"
+      },
+      {
+        "stock": "TCS",
+        "symbol": "TCS.NS",
+        "sector": "IT",
+        "type": "BREAKOUT",
+        "close": 2287.0,
+        "ema20": 2286.3424884173323,
+        "candle_time": "2026-08-25 11:30:00+05:30"
+      },
+      {
+        "stock": "ICICI Bank",
+        "symbol": "ICICIBANK.NS",
+        "sector": "Banking",
+        "type": "BREAKDOWN",
+        "close": 1415.9000244140625,
+        "ema20": 1416.118793760928,
+        "candle_time": "2026-08-25 11:30:00+05:30"
       }
     ],
     "email_status": "both_failed",
