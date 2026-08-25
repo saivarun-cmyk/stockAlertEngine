@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260819_163411",
-    "timestamp_ist": "2026-08-19T16:34:11.909436+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260819_171258",
     "timestamp_ist": "2026-08-19T17:12:58.092410+05:30",
     "stocks_scanned": 0,
@@ -2889,6 +2879,55 @@
         "close": 11551.0,
         "ema20": 11539.554543054932,
         "candle_time": "2026-08-25 13:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260825_143145",
+    "timestamp_ist": "2026-08-25T14:31:53.568574+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 4,
+    "alerts": [
+      {
+        "stock": "DLF",
+        "symbol": "DLF.NS",
+        "sector": "Realty",
+        "type": "BREAKOUT",
+        "close": 682.5499877929688,
+        "ema20": 682.5240753612007,
+        "candle_time": "2026-08-25 14:30:00+05:30"
+      },
+      {
+        "stock": "Trent",
+        "symbol": "TRENT.NS",
+        "sector": "Retail",
+        "type": "BREAKOUT",
+        "close": 2919.800048828125,
+        "ema20": 2917.253685874436,
+        "candle_time": "2026-08-25 14:30:00+05:30"
+      },
+      {
+        "stock": "Hindalco",
+        "symbol": "HINDALCO.NS",
+        "sector": "Metals",
+        "type": "BREAKDOWN",
+        "close": 1048.0999755859375,
+        "ema20": 1048.2082589846293,
+        "candle_time": "2026-08-25 14:30:00+05:30"
+      },
+      {
+        "stock": "Infosys",
+        "symbol": "INFY.NS",
+        "sector": "IT",
+        "type": "BREAKOUT",
+        "close": 1127.4000244140625,
+        "ema20": 1127.1914899515452,
+        "candle_time": "2026-08-25 14:30:00+05:30"
       }
     ],
     "email_status": "both_failed",
