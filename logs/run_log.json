@@ -1,36 +1,5 @@
 [
   {
-    "run_id": "20260820_110700",
-    "timestamp_ist": "2026-08-20T11:07:07.608639+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 2,
-    "alerts": [
-      {
-        "stock": "SBIN",
-        "symbol": "SBIN.NS",
-        "sector": "Banking",
-        "type": "BREAKDOWN",
-        "close": 1049.9000244140625,
-        "ema20": 1050.1973146166647,
-        "candle_time": "2026-08-20 11:00:00+05:30"
-      },
-      {
-        "stock": "Trent",
-        "symbol": "TRENT.NS",
-        "sector": "Retail",
-        "type": "BREAKOUT",
-        "close": 2956.5,
-        "ema20": 2956.1716212788033,
-        "candle_time": "2026-08-20 11:00:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260820_113457",
     "timestamp_ist": "2026-08-20T11:35:08.741904+05:30",
     "stocks_scanned": 40,
@@ -3003,6 +2972,28 @@
         "close": 2180.60009765625,
         "ema20": 2180.806542677735,
         "candle_time": "2026-08-26 10:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260826_110943",
+    "timestamp_ist": "2026-08-26T11:09:51.692617+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 1,
+    "alerts": [
+      {
+        "stock": "HAL",
+        "symbol": "HAL.NS",
+        "sector": "Defence",
+        "type": "BREAKOUT",
+        "close": 4912.2998046875,
+        "ema20": 4887.3603788643,
+        "candle_time": "2026-08-26 11:00:00+05:30"
       }
     ],
     "email_status": "both_failed",
