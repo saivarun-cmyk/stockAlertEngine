@@ -1,36 +1,5 @@
 [
   {
-    "run_id": "20260820_113457",
-    "timestamp_ist": "2026-08-20T11:35:08.741904+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 2,
-    "alerts": [
-      {
-        "stock": "Hero Motocorp",
-        "symbol": "HEROMOTOCO.NS",
-        "sector": "Automobile",
-        "type": "BREAKOUT",
-        "close": 5712.5,
-        "ema20": 5705.67470197916,
-        "candle_time": "2026-08-20 11:30:00+05:30"
-      },
-      {
-        "stock": "TCS",
-        "symbol": "TCS.NS",
-        "sector": "IT",
-        "type": "BREAKDOWN",
-        "close": 2291.699951171875,
-        "ema20": 2292.839136291965,
-        "candle_time": "2026-08-20 11:30:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260820_123810",
     "timestamp_ist": "2026-08-20T12:38:15.687010+05:30",
     "stocks_scanned": 40,
@@ -2994,6 +2963,55 @@
         "close": 4912.2998046875,
         "ema20": 4887.3603788643,
         "candle_time": "2026-08-26 11:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260826_114951",
+    "timestamp_ist": "2026-08-26T11:50:04.702304+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 4,
+    "alerts": [
+      {
+        "stock": "SHRIRAM Finance",
+        "symbol": "SHRIRAMFIN.NS",
+        "sector": "Finance",
+        "type": "BREAKOUT",
+        "close": 1126.9000244140625,
+        "ema20": 1125.875498207695,
+        "candle_time": "2026-08-26 11:30:00+05:30"
+      },
+      {
+        "stock": "Bajaj Auto",
+        "symbol": "BAJAJ-AUTO.NS",
+        "sector": "Automobile",
+        "type": "BREAKDOWN",
+        "close": 11810.0,
+        "ema20": 11822.617892431383,
+        "candle_time": "2026-08-26 11:30:00+05:30"
+      },
+      {
+        "stock": "Trent",
+        "symbol": "TRENT.NS",
+        "sector": "Retail",
+        "type": "BREAKDOWN",
+        "close": 2923.10009765625,
+        "ema20": 2925.587263542798,
+        "candle_time": "2026-08-26 11:30:00+05:30"
+      },
+      {
+        "stock": "Lupin",
+        "symbol": "LUPIN.NS",
+        "sector": "Pharma",
+        "type": "BREAKOUT",
+        "close": 2183.0,
+        "ema20": 2181.1289182344035,
+        "candle_time": "2026-08-26 11:30:00+05:30"
       }
     ],
     "email_status": "both_failed",
