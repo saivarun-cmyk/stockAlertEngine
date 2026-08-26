@@ -1,17 +1,5 @@
 [
   {
-    "run_id": "20260820_132822",
-    "timestamp_ist": "2026-08-20T13:28:29.883521+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "no_alerts",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260820_142030",
     "timestamp_ist": "2026-08-20T14:20:37.214415+05:30",
     "stocks_scanned": 40,
@@ -3085,6 +3073,64 @@
         "close": 9057.5,
         "ema20": 9061.817773057639,
         "candle_time": "2026-08-26 12:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260826_134113",
+    "timestamp_ist": "2026-08-26T13:41:20.995067+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 5,
+    "alerts": [
+      {
+        "stock": "Hero Motocorp",
+        "symbol": "HEROMOTOCO.NS",
+        "sector": "Automobile",
+        "type": "BREAKOUT",
+        "close": 5658.5,
+        "ema20": 5654.183491835594,
+        "candle_time": "2026-08-26 13:30:00+05:30"
+      },
+      {
+        "stock": "KPIT Technology",
+        "symbol": "KPITTECH.NS",
+        "sector": "IT",
+        "type": "BREAKDOWN",
+        "close": 587.75,
+        "ema20": 588.3955271527075,
+        "candle_time": "2026-08-26 13:30:00+05:30"
+      },
+      {
+        "stock": "Maruti",
+        "symbol": "MARUTI.NS",
+        "sector": "Automobile",
+        "type": "BREAKOUT",
+        "close": 13609.0,
+        "ema20": 13607.223818342127,
+        "candle_time": "2026-08-26 13:30:00+05:30"
+      },
+      {
+        "stock": "Dixon",
+        "symbol": "DIXON.NS",
+        "sector": "Electronics",
+        "type": "BREAKDOWN",
+        "close": 14751.0,
+        "ema20": 14766.176112371732,
+        "candle_time": "2026-08-26 13:30:00+05:30"
+      },
+      {
+        "stock": "BSE",
+        "symbol": "BSE.NS",
+        "sector": "Finance",
+        "type": "BREAKOUT",
+        "close": 3321.5,
+        "ema20": 3320.528311865126,
+        "candle_time": "2026-08-26 13:30:00+05:30"
       }
     ],
     "email_status": "both_failed",
