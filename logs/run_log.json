@@ -1,17 +1,5 @@
 [
   {
-    "run_id": "20260820_123810",
-    "timestamp_ist": "2026-08-20T12:38:15.687010+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "no_alerts",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260820_132822",
     "timestamp_ist": "2026-08-20T13:28:29.883521+05:30",
     "stocks_scanned": 40,
@@ -3012,6 +3000,91 @@
         "close": 2183.0,
         "ema20": 2181.1289182344035,
         "candle_time": "2026-08-26 11:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260826_125737",
+    "timestamp_ist": "2026-08-26T12:57:54.809328+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 8,
+    "alerts": [
+      {
+        "stock": "M&M",
+        "symbol": "M&M.NS",
+        "sector": "Automobile",
+        "type": "BREAKDOWN",
+        "close": 3424.5,
+        "ema20": 3425.4398383855178,
+        "candle_time": "2026-08-26 12:30:00+05:30"
+      },
+      {
+        "stock": "Hero Motocorp",
+        "symbol": "HEROMOTOCO.NS",
+        "sector": "Automobile",
+        "type": "BREAKDOWN",
+        "close": 5647.5,
+        "ema20": 5653.9261730496555,
+        "candle_time": "2026-08-26 12:30:00+05:30"
+      },
+      {
+        "stock": "Tata Steel",
+        "symbol": "TATASTEEL.NS",
+        "sector": "Metals",
+        "type": "BREAKOUT",
+        "close": 185.57000732421875,
+        "ema20": 184.94515341497208,
+        "candle_time": "2026-08-26 12:30:00+05:30"
+      },
+      {
+        "stock": "Siemens",
+        "symbol": "SIEMENS.NS",
+        "sector": "Capital Goods",
+        "type": "BREAKDOWN",
+        "close": 4049.800048828125,
+        "ema20": 4080.20873518831,
+        "candle_time": "2026-08-26 12:30:00+05:30"
+      },
+      {
+        "stock": "National Aluminium",
+        "symbol": "NATIONALUM.NS",
+        "sector": "Metals",
+        "type": "BREAKOUT",
+        "close": 397.1499938964844,
+        "ema20": 396.3619288203296,
+        "candle_time": "2026-08-26 12:30:00+05:30"
+      },
+      {
+        "stock": "BSE",
+        "symbol": "BSE.NS",
+        "sector": "Finance",
+        "type": "BREAKDOWN",
+        "close": 3315.199951171875,
+        "ema20": 3321.437796973844,
+        "candle_time": "2026-08-26 12:30:00+05:30"
+      },
+      {
+        "stock": "OFSS",
+        "symbol": "OFSS.NS",
+        "sector": "IT",
+        "type": "BREAKDOWN",
+        "close": 11720.0,
+        "ema20": 11738.423331771537,
+        "candle_time": "2026-08-26 12:30:00+05:30"
+      },
+      {
+        "stock": "Polycab",
+        "symbol": "POLYCAB.NS",
+        "sector": "Electronics",
+        "type": "BREAKDOWN",
+        "close": 9057.5,
+        "ema20": 9061.817773057639,
+        "candle_time": "2026-08-26 12:30:00+05:30"
       }
     ],
     "email_status": "both_failed",
