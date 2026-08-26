@@ -1,45 +1,5 @@
 [
   {
-    "run_id": "20260820_102457",
-    "timestamp_ist": "2026-08-20T10:25:07.385322+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 3,
-    "alerts": [
-      {
-        "stock": "Eicher Motors",
-        "symbol": "EICHERMOT.NS",
-        "sector": "Automobile",
-        "type": "BREAKDOWN",
-        "close": 8019.5,
-        "ema20": 8022.32528061528,
-        "candle_time": "2026-08-20 10:00:00+05:30"
-      },
-      {
-        "stock": "Tata Steel",
-        "symbol": "TATASTEEL.NS",
-        "sector": "Metals",
-        "type": "BREAKOUT",
-        "close": 184.67999267578125,
-        "ema20": 184.2057950112321,
-        "candle_time": "2026-08-20 10:00:00+05:30"
-      },
-      {
-        "stock": "Siemens",
-        "symbol": "SIEMENS.NS",
-        "sector": "Capital Goods",
-        "type": "BREAKOUT",
-        "close": 3924.800048828125,
-        "ema20": 3916.4737947841345,
-        "candle_time": "2026-08-20 10:00:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260820_110700",
     "timestamp_ist": "2026-08-20T11:07:07.608639+05:30",
     "stocks_scanned": 40,
@@ -2976,6 +2936,73 @@
         "close": 2188.800048828125,
         "ema20": 2179.8959218487507,
         "candle_time": "2026-08-26 09:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260826_101948",
+    "timestamp_ist": "2026-08-26T10:19:57.072443+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 6,
+    "alerts": [
+      {
+        "stock": "Hero Motocorp",
+        "symbol": "HEROMOTOCO.NS",
+        "sector": "Automobile",
+        "type": "BREAKOUT",
+        "close": 5639.0,
+        "ema20": 5636.996794205487,
+        "candle_time": "2026-08-26 10:00:00+05:30"
+      },
+      {
+        "stock": "HAL",
+        "symbol": "HAL.NS",
+        "sector": "Defence",
+        "type": "BREAKDOWN",
+        "close": 4884.2998046875,
+        "ema20": 4884.3849951655175,
+        "candle_time": "2026-08-26 10:00:00+05:30"
+      },
+      {
+        "stock": "LT",
+        "symbol": "LT.NS",
+        "sector": "Infrastructure",
+        "type": "BREAKDOWN",
+        "close": 4085.300048828125,
+        "ema20": 4091.7156600309295,
+        "candle_time": "2026-08-26 10:00:00+05:30"
+      },
+      {
+        "stock": "Cummins India",
+        "symbol": "CUMMINSIND.NS",
+        "sector": "Capital Goods",
+        "type": "BREAKOUT",
+        "close": 5198.5,
+        "ema20": 5191.333393925321,
+        "candle_time": "2026-08-26 10:00:00+05:30"
+      },
+      {
+        "stock": "Infosys",
+        "symbol": "INFY.NS",
+        "sector": "IT",
+        "type": "BREAKDOWN",
+        "close": 1127.300048828125,
+        "ema20": 1129.2469861058325,
+        "candle_time": "2026-08-26 10:00:00+05:30"
+      },
+      {
+        "stock": "Lupin",
+        "symbol": "LUPIN.NS",
+        "sector": "Pharma",
+        "type": "BREAKDOWN",
+        "close": 2180.60009765625,
+        "ema20": 2180.806542677735,
+        "candle_time": "2026-08-26 10:00:00+05:30"
       }
     ],
     "email_status": "both_failed",
