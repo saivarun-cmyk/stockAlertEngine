@@ -1,36 +1,5 @@
 [
   {
-    "run_id": "20260821_110810",
-    "timestamp_ist": "2026-08-21T11:08:22.612632+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 2,
-    "alerts": [
-      {
-        "stock": "SBIN",
-        "symbol": "SBIN.NS",
-        "sector": "Banking",
-        "type": "BREAKDOWN",
-        "close": 1047.9000244140625,
-        "ema20": 1049.5004335310564,
-        "candle_time": "2026-08-21 11:00:00+05:30"
-      },
-      {
-        "stock": "Asian Paints",
-        "symbol": "ASIANPAINT.NS",
-        "sector": "Consumer",
-        "type": "BREAKDOWN",
-        "close": 2622.5,
-        "ema20": 2623.795933860891,
-        "candle_time": "2026-08-21 11:00:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260821_114753",
     "timestamp_ist": "2026-08-21T11:48:01.848871+05:30",
     "stocks_scanned": 40,
@@ -3006,6 +2975,16 @@
   {
     "run_id": "20260831_013551",
     "timestamp_ist": "2026-08-31T01:35:51.730700+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260831_041700",
+    "timestamp_ist": "2026-08-31T04:17:00.900574+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
