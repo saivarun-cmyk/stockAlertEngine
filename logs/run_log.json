@@ -1,54 +1,5 @@
 [
   {
-    "run_id": "20260821_093407",
-    "timestamp_ist": "2026-08-21T09:34:16.441224+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 4,
-    "alerts": [
-      {
-        "stock": "LT",
-        "symbol": "LT.NS",
-        "sector": "Infrastructure",
-        "type": "BREAKDOWN",
-        "close": 4065.699951171875,
-        "ema20": 4065.9698114018893,
-        "candle_time": "2026-08-21 09:30:00+05:30"
-      },
-      {
-        "stock": "Persistent Systems",
-        "symbol": "PERSISTENT.NS",
-        "sector": "IT",
-        "type": "BREAKDOWN",
-        "close": 5612.0,
-        "ema20": 5624.042635677326,
-        "candle_time": "2026-08-21 09:30:00+05:30"
-      },
-      {
-        "stock": "ABB",
-        "symbol": "ABB.NS",
-        "sector": "Capital Goods",
-        "type": "BREAKDOWN",
-        "close": 7445.5,
-        "ema20": 7462.9540281226,
-        "candle_time": "2026-08-21 09:30:00+05:30"
-      },
-      {
-        "stock": "Siemens",
-        "symbol": "SIEMENS.NS",
-        "sector": "Capital Goods",
-        "type": "BREAKDOWN",
-        "close": 3907.10009765625,
-        "ema20": 3909.286327211329,
-        "candle_time": "2026-08-21 09:30:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260821_102534",
     "timestamp_ist": "2026-08-21T10:25:41.512748+05:30",
     "stocks_scanned": 40,
@@ -3093,6 +3044,16 @@
   {
     "run_id": "20260830_184857",
     "timestamp_ist": "2026-08-30T18:48:57.299080+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260830_231328",
+    "timestamp_ist": "2026-08-30T23:13:28.435218+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
