@@ -1,54 +1,5 @@
 [
   {
-    "run_id": "20260821_133709",
-    "timestamp_ist": "2026-08-21T13:37:29.691871+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 4,
-    "alerts": [
-      {
-        "stock": "M&M",
-        "symbol": "M&M.NS",
-        "sector": "Automobile",
-        "type": "BREAKDOWN",
-        "close": 3428.800048828125,
-        "ema20": 3429.608813968127,
-        "candle_time": "2026-08-21 13:30:00+05:30"
-      },
-      {
-        "stock": "Hero Motocorp",
-        "symbol": "HEROMOTOCO.NS",
-        "sector": "Automobile",
-        "type": "BREAKOUT",
-        "close": 5693.0,
-        "ema20": 5692.543049062633,
-        "candle_time": "2026-08-21 13:30:00+05:30"
-      },
-      {
-        "stock": "Mphasis",
-        "symbol": "MPHASIS.NS",
-        "sector": "IT",
-        "type": "BREAKDOWN",
-        "close": 2426.199951171875,
-        "ema20": 2427.099774704423,
-        "candle_time": "2026-08-21 13:30:00+05:30"
-      },
-      {
-        "stock": "TCS",
-        "symbol": "TCS.NS",
-        "sector": "IT",
-        "type": "BREAKDOWN",
-        "close": 2295.800048828125,
-        "ema20": 2297.073137066158,
-        "candle_time": "2026-08-21 13:30:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260821_142931",
     "timestamp_ist": "2026-08-21T14:29:39.338830+05:30",
     "stocks_scanned": 40,
@@ -2916,5 +2867,15 @@
       "fetch_failed:LTM"
     ],
     "market_open": true
+  },
+  {
+    "run_id": "20260831_205138",
+    "timestamp_ist": "2026-08-31T20:51:38.093838+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
   }
 ]
