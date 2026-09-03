@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260822_012931",
-    "timestamp_ist": "2026-08-22T01:29:31.773711+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260822_020522",
     "timestamp_ist": "2026-08-22T02:05:22.345969+05:30",
     "stocks_scanned": 0,
@@ -2894,5 +2884,63 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20260903_115644",
+    "timestamp_ist": "2026-09-03T11:56:50.892234+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 5,
+    "alerts": [
+      {
+        "stock": "National Aluminium",
+        "symbol": "NATIONALUM.NS",
+        "sector": "Metals",
+        "type": "BREAKDOWN",
+        "close": 372.25,
+        "ema20": 372.45579082078467,
+        "candle_time": "2026-09-03 11:30:00+05:30"
+      },
+      {
+        "stock": "OFSS",
+        "symbol": "OFSS.NS",
+        "sector": "IT",
+        "type": "BREAKDOWN",
+        "close": 12138.0,
+        "ema20": 12138.469553341572,
+        "candle_time": "2026-09-03 11:30:00+05:30"
+      },
+      {
+        "stock": "TCS",
+        "symbol": "TCS.NS",
+        "sector": "IT",
+        "type": "BREAKOUT",
+        "close": 2342.5,
+        "ema20": 2340.0269398124315,
+        "candle_time": "2026-09-03 11:30:00+05:30"
+      },
+      {
+        "stock": "Tata Elxsi",
+        "symbol": "TATAELXSI.NS",
+        "sector": "IT",
+        "type": "BREAKDOWN",
+        "close": 3601.300048828125,
+        "ema20": 3608.6082345914147,
+        "candle_time": "2026-09-03 11:30:00+05:30"
+      },
+      {
+        "stock": "Lupin",
+        "symbol": "LUPIN.NS",
+        "sector": "Pharma",
+        "type": "BREAKOUT",
+        "close": 2148.699951171875,
+        "ema20": 2147.3079388632104,
+        "candle_time": "2026-09-03 11:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
