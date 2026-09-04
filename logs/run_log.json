@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260822_051134",
-    "timestamp_ist": "2026-08-22T05:11:34.033327+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260822_053125",
     "timestamp_ist": "2026-08-22T05:31:25.521106+05:30",
     "stocks_scanned": 0,
@@ -2942,5 +2932,90 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20260904_115614",
+    "timestamp_ist": "2026-09-04T11:56:26.047383+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 8,
+    "alerts": [
+      {
+        "stock": "Hero Motocorp",
+        "symbol": "HEROMOTOCO.NS",
+        "sector": "Automobile",
+        "type": "BREAKOUT",
+        "close": 5304.0,
+        "ema20": 5301.542927043237,
+        "candle_time": "2026-09-04 11:30:00+05:30"
+      },
+      {
+        "stock": "SHRIRAM Finance",
+        "symbol": "SHRIRAMFIN.NS",
+        "sector": "Finance",
+        "type": "BREAKDOWN",
+        "close": 1044.699951171875,
+        "ema20": 1046.132090591152,
+        "candle_time": "2026-09-04 11:30:00+05:30"
+      },
+      {
+        "stock": "JSW Steel",
+        "symbol": "JSWSTEEL.NS",
+        "sector": "Metals",
+        "type": "BREAKDOWN",
+        "close": 1303.9000244140625,
+        "ema20": 1304.4027030828797,
+        "candle_time": "2026-09-04 11:30:00+05:30"
+      },
+      {
+        "stock": "LT",
+        "symbol": "LT.NS",
+        "sector": "Infrastructure",
+        "type": "BREAKOUT",
+        "close": 3990.10009765625,
+        "ema20": 3989.4117157220335,
+        "candle_time": "2026-09-04 11:30:00+05:30"
+      },
+      {
+        "stock": "SBIN",
+        "symbol": "SBIN.NS",
+        "sector": "Banking",
+        "type": "BREAKDOWN",
+        "close": 1025.199951171875,
+        "ema20": 1026.465179352014,
+        "candle_time": "2026-09-04 11:30:00+05:30"
+      },
+      {
+        "stock": "MCX",
+        "symbol": "MCX.NS",
+        "sector": "Finance",
+        "type": "BREAKDOWN",
+        "close": 3213.0,
+        "ema20": 3222.5261117524224,
+        "candle_time": "2026-09-04 11:30:00+05:30"
+      },
+      {
+        "stock": "OFSS",
+        "symbol": "OFSS.NS",
+        "sector": "IT",
+        "type": "BREAKOUT",
+        "close": 12166.0,
+        "ema20": 12160.05051728744,
+        "candle_time": "2026-09-04 11:30:00+05:30"
+      },
+      {
+        "stock": "ICICI Bank",
+        "symbol": "ICICIBANK.NS",
+        "sector": "Banking",
+        "type": "BREAKDOWN",
+        "close": 1432.0999755859375,
+        "ema20": 1433.4810466140332,
+        "candle_time": "2026-09-04 11:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
