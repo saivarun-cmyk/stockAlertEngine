@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260823_001401",
-    "timestamp_ist": "2026-08-23T00:14:01.394360+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260823_004025",
     "timestamp_ist": "2026-08-23T00:40:25.999527+05:30",
     "stocks_scanned": 0,
@@ -3091,6 +3081,82 @@
         "close": 3286.699951171875,
         "ema20": 3310.307567959689,
         "candle_time": "2026-09-08 10:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260908_153037",
+    "timestamp_ist": "2026-09-08T15:30:59.554170+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 7,
+    "alerts": [
+      {
+        "stock": "M&M",
+        "symbol": "M&M.NS",
+        "sector": "Automobile",
+        "type": "BREAKOUT",
+        "close": 3154.300048828125,
+        "ema20": 3145.9142691974143,
+        "candle_time": "2026-09-08 15:00:00+05:30"
+      },
+      {
+        "stock": "Persistent Systems",
+        "symbol": "PERSISTENT.NS",
+        "sector": "IT",
+        "type": "BREAKDOWN",
+        "close": 5572.5,
+        "ema20": 5576.228117142251,
+        "candle_time": "2026-09-08 15:00:00+05:30"
+      },
+      {
+        "stock": "BHEL",
+        "symbol": "BHEL.NS",
+        "sector": "Capital Goods",
+        "type": "BREAKOUT",
+        "close": 424.54998779296875,
+        "ema20": 424.2070811158394,
+        "candle_time": "2026-09-08 15:00:00+05:30"
+      },
+      {
+        "stock": "ABB",
+        "symbol": "ABB.NS",
+        "sector": "Capital Goods",
+        "type": "BREAKOUT",
+        "close": 7410.0,
+        "ema20": 7405.14870801915,
+        "candle_time": "2026-09-08 15:00:00+05:30"
+      },
+      {
+        "stock": "Siemens",
+        "symbol": "SIEMENS.NS",
+        "sector": "Capital Goods",
+        "type": "BREAKDOWN",
+        "close": 3952.0,
+        "ema20": 3965.103338157255,
+        "candle_time": "2026-09-08 15:00:00+05:30"
+      },
+      {
+        "stock": "Tata Elxsi",
+        "symbol": "TATAELXSI.NS",
+        "sector": "IT",
+        "type": "BREAKOUT",
+        "close": 3491.89990234375,
+        "ema20": 3491.6990436372607,
+        "candle_time": "2026-09-08 15:00:00+05:30"
+      },
+      {
+        "stock": "Bajaj Finance",
+        "symbol": "BAJFINANCE.NS",
+        "sector": "Finance",
+        "type": "BREAKDOWN",
+        "close": 1055.199951171875,
+        "ema20": 1055.922223193663,
+        "candle_time": "2026-09-08 15:00:00+05:30"
       }
     ],
     "email_status": "both_failed",
