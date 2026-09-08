@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260822_232916",
-    "timestamp_ist": "2026-08-22T23:29:16.152391+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260823_001401",
     "timestamp_ist": "2026-08-23T00:14:01.394360+05:30",
     "stocks_scanned": 0,
@@ -3077,5 +3067,36 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20260908_105042",
+    "timestamp_ist": "2026-09-08T10:50:48.210055+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 2,
+    "alerts": [
+      {
+        "stock": "BHEL",
+        "symbol": "BHEL.NS",
+        "sector": "Capital Goods",
+        "type": "BREAKDOWN",
+        "close": 425.0,
+        "ema20": 425.07223736222454,
+        "candle_time": "2026-09-08 10:30:00+05:30"
+      },
+      {
+        "stock": "MCX",
+        "symbol": "MCX.NS",
+        "sector": "Finance",
+        "type": "BREAKDOWN",
+        "close": 3286.699951171875,
+        "ema20": 3310.307567959689,
+        "candle_time": "2026-09-08 10:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
