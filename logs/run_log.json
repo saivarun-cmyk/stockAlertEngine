@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260823_083845",
-    "timestamp_ist": "2026-08-23T08:38:45.008486+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260823_093258",
     "timestamp_ist": "2026-08-23T09:32:58.296776+05:30",
     "stocks_scanned": 0,
@@ -3207,6 +3197,37 @@
         "close": 1938.5,
         "ema20": 1929.95248084565,
         "candle_time": "2026-09-10 09:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260910_143733",
+    "timestamp_ist": "2026-09-10T14:37:48.270182+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 2,
+    "alerts": [
+      {
+        "stock": "BSE",
+        "symbol": "BSE.NS",
+        "sector": "Finance",
+        "type": "BREAKOUT",
+        "close": 3309.10009765625,
+        "ema20": 3294.452231948622,
+        "candle_time": "2026-09-10 14:30:00+05:30"
+      },
+      {
+        "stock": "Polycab",
+        "symbol": "POLYCAB.NS",
+        "sector": "Electronics",
+        "type": "BREAKOUT",
+        "close": 8350.0,
+        "ema20": 8346.327555102598,
+        "candle_time": "2026-09-10 14:30:00+05:30"
       }
     ],
     "email_status": "both_failed",
