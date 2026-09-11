@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260823_140711",
-    "timestamp_ist": "2026-08-23T14:07:11.293227+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260823_143739",
     "timestamp_ist": "2026-08-23T14:37:39.539177+05:30",
     "stocks_scanned": 0,
@@ -3240,6 +3230,82 @@
         "close": 553.4000244140625,
         "ema20": 552.4939392275609,
         "candle_time": "2026-09-11 10:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260911_151540",
+    "timestamp_ist": "2026-09-11T15:15:48.004952+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 7,
+    "alerts": [
+      {
+        "stock": "Hero Motocorp",
+        "symbol": "HEROMOTOCO.NS",
+        "sector": "Automobile",
+        "type": "BREAKDOWN",
+        "close": 5234.5,
+        "ema20": 5234.659282686254,
+        "candle_time": "2026-09-11 15:00:00+05:30"
+      },
+      {
+        "stock": "Mphasis",
+        "symbol": "MPHASIS.NS",
+        "sector": "IT",
+        "type": "BREAKOUT",
+        "close": 2304.800048828125,
+        "ema20": 2297.0826594118794,
+        "candle_time": "2026-09-11 15:00:00+05:30"
+      },
+      {
+        "stock": "Dixon",
+        "symbol": "DIXON.NS",
+        "sector": "Electronics",
+        "type": "BREAKOUT",
+        "close": 13460.0,
+        "ema20": 13417.607890719084,
+        "candle_time": "2026-09-11 15:00:00+05:30"
+      },
+      {
+        "stock": "Siemens",
+        "symbol": "SIEMENS.NS",
+        "sector": "Capital Goods",
+        "type": "BREAKOUT",
+        "close": 3931.0,
+        "ema20": 3929.1553320902585,
+        "candle_time": "2026-09-11 15:00:00+05:30"
+      },
+      {
+        "stock": "Cummins India",
+        "symbol": "CUMMINSIND.NS",
+        "sector": "Capital Goods",
+        "type": "BREAKOUT",
+        "close": 5095.0,
+        "ema20": 5093.412317448526,
+        "candle_time": "2026-09-11 15:00:00+05:30"
+      },
+      {
+        "stock": "Bajaj Finance",
+        "symbol": "BAJFINANCE.NS",
+        "sector": "Finance",
+        "type": "BREAKOUT",
+        "close": 1035.0,
+        "ema20": 1033.559581767893,
+        "candle_time": "2026-09-11 15:00:00+05:30"
+      },
+      {
+        "stock": "Polycab",
+        "symbol": "POLYCAB.NS",
+        "sector": "Electronics",
+        "type": "BREAKOUT",
+        "close": 8264.0,
+        "ema20": 8254.232081034457,
+        "candle_time": "2026-09-11 15:00:00+05:30"
       }
     ],
     "email_status": "both_failed",
