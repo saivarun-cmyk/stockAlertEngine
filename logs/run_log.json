@@ -1,54 +1,5 @@
 [
   {
-    "run_id": "20260824_124008",
-    "timestamp_ist": "2026-08-24T12:40:16.046641+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 4,
-    "alerts": [
-      {
-        "stock": "M&M",
-        "symbol": "M&M.NS",
-        "sector": "Automobile",
-        "type": "BREAKDOWN",
-        "close": 3428.800048828125,
-        "ema20": 3428.872168757811,
-        "candle_time": "2026-08-24 12:30:00+05:30"
-      },
-      {
-        "stock": "Hero Motocorp",
-        "symbol": "HEROMOTOCO.NS",
-        "sector": "Automobile",
-        "type": "BREAKDOWN",
-        "close": 5687.0,
-        "ema20": 5695.691392837089,
-        "candle_time": "2026-08-24 12:30:00+05:30"
-      },
-      {
-        "stock": "Kaynes",
-        "symbol": "KAYNES.NS",
-        "sector": "Electronics",
-        "type": "BREAKDOWN",
-        "close": 3877.5,
-        "ema20": 3883.136704682165,
-        "candle_time": "2026-08-24 12:30:00+05:30"
-      },
-      {
-        "stock": "OFSS",
-        "symbol": "OFSS.NS",
-        "sector": "IT",
-        "type": "BREAKDOWN",
-        "close": 11770.0,
-        "ema20": 11777.871676565348,
-        "candle_time": "2026-08-24 12:30:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260824_133527",
     "timestamp_ist": "2026-08-24T13:35:37.967234+05:30",
     "stocks_scanned": 40,
@@ -3288,6 +3239,16 @@
   {
     "run_id": "20260917_003650",
     "timestamp_ist": "2026-09-17T00:36:50.132995+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260917_034208",
+    "timestamp_ist": "2026-09-17T03:42:08.156005+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
