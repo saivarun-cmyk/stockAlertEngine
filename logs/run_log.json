@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260824_203232",
-    "timestamp_ist": "2026-08-24T20:32:32.456593+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260824_212742",
     "timestamp_ist": "2026-08-24T21:27:42.516787+05:30",
     "stocks_scanned": 0,
@@ -3209,6 +3199,64 @@
         "close": 11600.0,
         "ema20": 11587.226599694035,
         "candle_time": "2026-09-18 10:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260918_151906",
+    "timestamp_ist": "2026-09-18T15:19:14.148775+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 5,
+    "alerts": [
+      {
+        "stock": "Mphasis",
+        "symbol": "MPHASIS.NS",
+        "sector": "IT",
+        "type": "BREAKDOWN",
+        "close": 2291.699951171875,
+        "ema20": 2296.9055609297516,
+        "candle_time": "2026-09-18 15:00:00+05:30"
+      },
+      {
+        "stock": "Bajaj Auto",
+        "symbol": "BAJAJ-AUTO.NS",
+        "sector": "Automobile",
+        "type": "BREAKOUT",
+        "close": 11486.0,
+        "ema20": 11477.215067880952,
+        "candle_time": "2026-09-18 15:00:00+05:30"
+      },
+      {
+        "stock": "Tata Steel",
+        "symbol": "TATASTEEL.NS",
+        "sector": "Metals",
+        "type": "BREAKDOWN",
+        "close": 186.1999969482422,
+        "ema20": 186.22461942778457,
+        "candle_time": "2026-09-18 15:00:00+05:30"
+      },
+      {
+        "stock": "National Aluminium",
+        "symbol": "NATIONALUM.NS",
+        "sector": "Metals",
+        "type": "BREAKDOWN",
+        "close": 357.6499938964844,
+        "ema20": 357.6658301827206,
+        "candle_time": "2026-09-18 15:00:00+05:30"
+      },
+      {
+        "stock": "Lupin",
+        "symbol": "LUPIN.NS",
+        "sector": "Pharma",
+        "type": "BREAKDOWN",
+        "close": 2075.0,
+        "ema20": 2084.6917935996753,
+        "candle_time": "2026-09-18 15:00:00+05:30"
       }
     ],
     "email_status": "both_failed",
