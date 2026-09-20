@@ -1,72 +1,5 @@
 [
   {
-    "run_id": "20260825_102546",
-    "timestamp_ist": "2026-08-25T10:25:59.028061+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 6,
-    "alerts": [
-      {
-        "stock": "Bajaj Auto",
-        "symbol": "BAJAJ-AUTO.NS",
-        "sector": "Automobile",
-        "type": "BREAKDOWN",
-        "close": 11762.0,
-        "ema20": 11770.88209287596,
-        "candle_time": "2026-08-25 10:00:00+05:30"
-      },
-      {
-        "stock": "Tata Steel",
-        "symbol": "TATASTEEL.NS",
-        "sector": "Metals",
-        "type": "BREAKDOWN",
-        "close": 184.1999969482422,
-        "ema20": 184.77498448818815,
-        "candle_time": "2026-08-25 10:00:00+05:30"
-      },
-      {
-        "stock": "ABB",
-        "symbol": "ABB.NS",
-        "sector": "Capital Goods",
-        "type": "BREAKOUT",
-        "close": 7503.5,
-        "ema20": 7490.869398172122,
-        "candle_time": "2026-08-25 10:00:00+05:30"
-      },
-      {
-        "stock": "Cummins India",
-        "symbol": "CUMMINSIND.NS",
-        "sector": "Capital Goods",
-        "type": "BREAKDOWN",
-        "close": 5154.5,
-        "ema20": 5156.5502444072135,
-        "candle_time": "2026-08-25 10:00:00+05:30"
-      },
-      {
-        "stock": "Polycab",
-        "symbol": "POLYCAB.NS",
-        "sector": "Electronics",
-        "type": "BREAKDOWN",
-        "close": 9028.0,
-        "ema20": 9030.992946459019,
-        "candle_time": "2026-08-25 10:00:00+05:30"
-      },
-      {
-        "stock": "ICICI Bank",
-        "symbol": "ICICIBANK.NS",
-        "sector": "Banking",
-        "type": "BREAKDOWN",
-        "close": 1412.9000244140625,
-        "ema20": 1415.4447929858557,
-        "candle_time": "2026-08-25 10:00:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260825_110728",
     "timestamp_ist": "2026-08-25T11:07:41.082366+05:30",
     "stocks_scanned": 40,
@@ -3246,6 +3179,16 @@
   {
     "run_id": "20260920_223239",
     "timestamp_ist": "2026-09-20T22:32:39.320440+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260921_005857",
+    "timestamp_ist": "2026-09-21T00:58:57.290019+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
