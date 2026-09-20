@@ -1,27 +1,5 @@
 [
   {
-    "run_id": "20260825_093136",
-    "timestamp_ist": "2026-08-25T09:31:44.597099+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 1,
-    "alerts": [
-      {
-        "stock": "SBIN",
-        "symbol": "SBIN.NS",
-        "sector": "Banking",
-        "type": "BREAKOUT",
-        "close": 1040.5999755859375,
-        "ema20": 1039.5395330646832,
-        "candle_time": "2026-08-25 09:30:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260825_102546",
     "timestamp_ist": "2026-08-25T10:25:59.028061+05:30",
     "stocks_scanned": 40,
@@ -3258,6 +3236,16 @@
   {
     "run_id": "20260920_191337",
     "timestamp_ist": "2026-09-20T19:13:37.698061+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260920_223239",
+    "timestamp_ist": "2026-09-20T22:32:39.320440+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
