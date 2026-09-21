@@ -1,36 +1,5 @@
 [
   {
-    "run_id": "20260825_152243",
-    "timestamp_ist": "2026-08-25T15:22:51.528150+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 2,
-    "alerts": [
-      {
-        "stock": "VEDL",
-        "symbol": "VEDL.NS",
-        "sector": "Metals",
-        "type": "BREAKDOWN",
-        "close": 274.6499938964844,
-        "ema20": 275.06202866879306,
-        "candle_time": "2026-08-25 15:00:00+05:30"
-      },
-      {
-        "stock": "Siemens",
-        "symbol": "SIEMENS.NS",
-        "sector": "Capital Goods",
-        "type": "BREAKDOWN",
-        "close": 4070.0,
-        "ema20": 4076.4536568609374,
-        "candle_time": "2026-08-25 15:00:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260825_160847",
     "timestamp_ist": "2026-08-25T16:08:47.651792+05:30",
     "stocks_scanned": 0,
@@ -3051,6 +3020,16 @@
   {
     "run_id": "20260921_222600",
     "timestamp_ist": "2026-09-21T22:26:00.800614+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20260922_022709",
+    "timestamp_ist": "2026-09-22T02:27:09.949587+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
