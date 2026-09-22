@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260825_164002",
-    "timestamp_ist": "2026-08-25T16:40:02.127317+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260825_171551",
     "timestamp_ist": "2026-08-25T17:15:51.149480+05:30",
     "stocks_scanned": 0,
@@ -3036,5 +3026,27 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20260922_103119",
+    "timestamp_ist": "2026-09-22T10:31:29.928300+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 1,
+    "alerts": [
+      {
+        "stock": "M&M",
+        "symbol": "M&M.NS",
+        "sector": "Automobile",
+        "type": "BREAKDOWN",
+        "close": 3068.60009765625,
+        "ema20": 3069.619617060081,
+        "candle_time": "2026-09-22 10:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
