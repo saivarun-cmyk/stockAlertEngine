@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260825_221415",
-    "timestamp_ist": "2026-08-25T22:14:15.027189+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260825_224822",
     "timestamp_ist": "2026-08-25T22:48:22.893578+05:30",
     "stocks_scanned": 0,
@@ -3096,5 +3086,45 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20260923_095029",
+    "timestamp_ist": "2026-09-23T09:50:39.686754+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 3,
+    "alerts": [
+      {
+        "stock": "Hero Motocorp",
+        "symbol": "HEROMOTOCO.NS",
+        "sector": "Automobile",
+        "type": "BREAKDOWN",
+        "close": 5385.0,
+        "ema20": 5391.4707049605195,
+        "candle_time": "2026-09-23 09:30:00+05:30"
+      },
+      {
+        "stock": "Maruti",
+        "symbol": "MARUTI.NS",
+        "sector": "Automobile",
+        "type": "BREAKDOWN",
+        "close": 12150.0,
+        "ema20": 12185.005170509407,
+        "candle_time": "2026-09-23 09:30:00+05:30"
+      },
+      {
+        "stock": "HAL",
+        "symbol": "HAL.NS",
+        "sector": "Defence",
+        "type": "BREAKOUT",
+        "close": 4841.0,
+        "ema20": 4813.928286063063,
+        "candle_time": "2026-09-23 09:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
