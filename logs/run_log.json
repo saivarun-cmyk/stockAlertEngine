@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260825_224822",
-    "timestamp_ist": "2026-08-25T22:48:22.893578+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260825_232814",
     "timestamp_ist": "2026-08-25T23:28:14.435674+05:30",
     "stocks_scanned": 0,
@@ -3119,6 +3109,64 @@
         "close": 4841.0,
         "ema20": 4813.928286063063,
         "candle_time": "2026-09-23 09:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
+  },
+  {
+    "run_id": "20260923_145814",
+    "timestamp_ist": "2026-09-23T14:58:24.999648+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 5,
+    "alerts": [
+      {
+        "stock": "SHRIRAM Finance",
+        "symbol": "SHRIRAMFIN.NS",
+        "sector": "Finance",
+        "type": "BREAKDOWN",
+        "close": 1006.9000244140625,
+        "ema20": 1008.7617637179275,
+        "candle_time": "2026-09-23 14:30:00+05:30"
+      },
+      {
+        "stock": "Eicher Motors",
+        "symbol": "EICHERMOT.NS",
+        "sector": "Automobile",
+        "type": "BREAKDOWN",
+        "close": 7442.0,
+        "ema20": 7464.72689916054,
+        "candle_time": "2026-09-23 14:30:00+05:30"
+      },
+      {
+        "stock": "Trent",
+        "symbol": "TRENT.NS",
+        "sector": "Retail",
+        "type": "BREAKDOWN",
+        "close": 2779.10009765625,
+        "ema20": 2784.0552161142086,
+        "candle_time": "2026-09-23 14:30:00+05:30"
+      },
+      {
+        "stock": "Asian Paints",
+        "symbol": "ASIANPAINT.NS",
+        "sector": "Consumer",
+        "type": "BREAKDOWN",
+        "close": 2451.60009765625,
+        "ema20": 2456.543149061452,
+        "candle_time": "2026-09-23 14:30:00+05:30"
+      },
+      {
+        "stock": "ICICI Bank",
+        "symbol": "ICICIBANK.NS",
+        "sector": "Banking",
+        "type": "BREAKDOWN",
+        "close": 1336.199951171875,
+        "ema20": 1339.3620942457806,
+        "candle_time": "2026-09-23 14:30:00+05:30"
       }
     ],
     "email_status": "both_failed",
