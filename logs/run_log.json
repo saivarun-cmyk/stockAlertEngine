@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260827_035520",
-    "timestamp_ist": "2026-08-27T03:55:20.069551+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260827_085948",
     "timestamp_ist": "2026-08-27T08:59:48.491705+05:30",
     "stocks_scanned": 0,
@@ -2907,5 +2897,27 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20260928_123237",
+    "timestamp_ist": "2026-09-28T12:32:46.756366+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 1,
+    "alerts": [
+      {
+        "stock": "Persistent Systems",
+        "symbol": "PERSISTENT.NS",
+        "sector": "IT",
+        "type": "BREAKDOWN",
+        "close": 5318.0,
+        "ema20": 5319.773304534495,
+        "candle_time": "2026-09-28 12:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
