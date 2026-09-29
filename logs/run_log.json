@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260828_165734",
-    "timestamp_ist": "2026-08-28T16:57:34.133098+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260829_025943",
     "timestamp_ist": "2026-08-29T02:59:43.357526+05:30",
     "stocks_scanned": 0,
@@ -2919,5 +2909,45 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20260929_122922",
+    "timestamp_ist": "2026-09-29T12:29:28.949701+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 3,
+    "alerts": [
+      {
+        "stock": "KPIT Technology",
+        "symbol": "KPITTECH.NS",
+        "sector": "IT",
+        "type": "BREAKDOWN",
+        "close": 505.75,
+        "ema20": 507.82236455577765,
+        "candle_time": "2026-09-29 12:00:00+05:30"
+      },
+      {
+        "stock": "Kaynes",
+        "symbol": "KAYNES.NS",
+        "sector": "Electronics",
+        "type": "BREAKDOWN",
+        "close": 3587.800048828125,
+        "ema20": 3627.9088454230196,
+        "candle_time": "2026-09-29 12:00:00+05:30"
+      },
+      {
+        "stock": "Laurus Labs",
+        "symbol": "LAURUSLABS.NS",
+        "sector": "Pharma",
+        "type": "BREAKDOWN",
+        "close": 2006.5999755859375,
+        "ema20": 2008.3532611005226,
+        "candle_time": "2026-09-29 12:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
