@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260830_000834",
-    "timestamp_ist": "2026-08-30T00:08:34.243583+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260830_024810",
     "timestamp_ist": "2026-08-30T02:48:10.965906+05:30",
     "stocks_scanned": 0,
@@ -2949,5 +2939,36 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20260930_140727",
+    "timestamp_ist": "2026-09-30T14:07:34.853530+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 2,
+    "alerts": [
+      {
+        "stock": "Hero Motocorp",
+        "symbol": "HEROMOTOCO.NS",
+        "sector": "Automobile",
+        "type": "BREAKDOWN",
+        "close": 5313.0,
+        "ema20": 5313.451790827301,
+        "candle_time": "2026-09-30 14:00:00+05:30"
+      },
+      {
+        "stock": "Tata Steel",
+        "symbol": "TATASTEEL.NS",
+        "sector": "Metals",
+        "type": "BREAKOUT",
+        "close": 188.00999450683594,
+        "ema20": 187.79425270097659,
+        "candle_time": "2026-09-30 14:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
