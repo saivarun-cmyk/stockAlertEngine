@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260830_130059",
-    "timestamp_ist": "2026-08-30T13:00:59.567421+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260830_184857",
     "timestamp_ist": "2026-08-30T18:48:57.299080+05:30",
     "stocks_scanned": 0,
@@ -2970,5 +2960,27 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20261001_110718",
+    "timestamp_ist": "2026-10-01T11:07:25.115446+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 1,
+    "alerts": [
+      {
+        "stock": "BSE",
+        "symbol": "BSE.NS",
+        "sector": "Finance",
+        "type": "BREAKDOWN",
+        "close": 3114.5,
+        "ema20": 3115.1884546585406,
+        "candle_time": "2026-10-01 11:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
