@@ -1,27 +1,5 @@
 [
   {
-    "run_id": "20260831_125902",
-    "timestamp_ist": "2026-08-31T12:59:09.634627+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 1,
-    "alerts": [
-      {
-        "stock": "Laurus Labs",
-        "symbol": "LAURUSLABS.NS",
-        "sector": "Pharma",
-        "type": "BREAKDOWN",
-        "close": 1911.0999755859375,
-        "ema20": 1916.1540979521665,
-        "candle_time": "2026-08-31 12:30:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260831_205138",
     "timestamp_ist": "2026-08-31T20:51:38.093838+05:30",
     "stocks_scanned": 0,
@@ -3003,5 +2981,15 @@
       "fetch_failed:LTM"
     ],
     "market_open": true
+  },
+  {
+    "run_id": "20261002_203319",
+    "timestamp_ist": "2026-10-02T20:33:19.834395+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
   }
 ]
