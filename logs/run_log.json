@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260904_045832",
-    "timestamp_ist": "2026-09-04T04:58:32.147997+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260904_064741",
     "timestamp_ist": "2026-09-04T06:47:41.803348+05:30",
     "stocks_scanned": 0,
@@ -2926,5 +2916,54 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20261007_120548",
+    "timestamp_ist": "2026-10-07T12:06:03.989500+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 4,
+    "alerts": [
+      {
+        "stock": "KPIT Technology",
+        "symbol": "KPITTECH.NS",
+        "sector": "IT",
+        "type": "BREAKOUT",
+        "close": 494.54998779296875,
+        "ema20": 493.7395418348504,
+        "candle_time": "2026-10-07 12:00:00+05:30"
+      },
+      {
+        "stock": "VEDL",
+        "symbol": "VEDL.NS",
+        "sector": "Metals",
+        "type": "BREAKDOWN",
+        "close": 261.6499938964844,
+        "ema20": 261.70111368881146,
+        "candle_time": "2026-10-07 12:00:00+05:30"
+      },
+      {
+        "stock": "Kaynes",
+        "symbol": "KAYNES.NS",
+        "sector": "Electronics",
+        "type": "BREAKOUT",
+        "close": 3402.0,
+        "ema20": 3397.5239037007195,
+        "candle_time": "2026-10-07 12:00:00+05:30"
+      },
+      {
+        "stock": "Lupin",
+        "symbol": "LUPIN.NS",
+        "sector": "Pharma",
+        "type": "BREAKDOWN",
+        "close": 2020.199951171875,
+        "ema20": 2020.407148924174,
+        "candle_time": "2026-10-07 12:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
