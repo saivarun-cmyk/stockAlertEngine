@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260905_062141",
-    "timestamp_ist": "2026-09-05T06:21:41.535444+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260905_110035",
     "timestamp_ist": "2026-09-05T11:00:35.161954+05:30",
     "stocks_scanned": 0,
@@ -2892,5 +2882,27 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20261009_111016",
+    "timestamp_ist": "2026-10-09T11:10:26.849061+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 1,
+    "alerts": [
+      {
+        "stock": "DLF",
+        "symbol": "DLF.NS",
+        "sector": "Realty",
+        "type": "BREAKDOWN",
+        "close": 644.7000122070312,
+        "ema20": 645.3038007024752,
+        "candle_time": "2026-10-09 11:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
