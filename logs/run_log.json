@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260907_035512",
-    "timestamp_ist": "2026-09-07T03:55:12.978684+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260907_054458",
     "timestamp_ist": "2026-09-07T05:44:58.034453+05:30",
     "stocks_scanned": 0,
@@ -2904,5 +2894,36 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20261012_150854",
+    "timestamp_ist": "2026-10-12T15:09:10.485370+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 2,
+    "alerts": [
+      {
+        "stock": "NTPC",
+        "symbol": "NTPC.NS",
+        "sector": "Power",
+        "type": "BREAKDOWN",
+        "close": 309.25,
+        "ema20": 309.55019202577273,
+        "candle_time": "2026-10-12 15:00:00+05:30"
+      },
+      {
+        "stock": "Laurus Labs",
+        "symbol": "LAURUSLABS.NS",
+        "sector": "Pharma",
+        "type": "BREAKDOWN",
+        "close": 2041.9000244140625,
+        "ema20": 2043.3847363525279,
+        "candle_time": "2026-10-12 15:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
