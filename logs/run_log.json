@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260908_061313",
-    "timestamp_ist": "2026-09-08T06:13:13.661823+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260908_105042",
     "timestamp_ist": "2026-09-08T10:50:48.210055+05:30",
     "stocks_scanned": 40,
@@ -2877,5 +2867,54 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20261014_105802",
+    "timestamp_ist": "2026-10-14T10:58:10.254670+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 4,
+    "alerts": [
+      {
+        "stock": "Eicher Motors",
+        "symbol": "EICHERMOT.NS",
+        "sector": "Automobile",
+        "type": "BREAKDOWN",
+        "close": 7095.0,
+        "ema20": 7104.355549316196,
+        "candle_time": "2026-10-14 10:30:00+05:30"
+      },
+      {
+        "stock": "LT",
+        "symbol": "LT.NS",
+        "sector": "Infrastructure",
+        "type": "BREAKDOWN",
+        "close": 3643.10009765625,
+        "ema20": 3644.4712326993026,
+        "candle_time": "2026-10-14 10:30:00+05:30"
+      },
+      {
+        "stock": "SBIN",
+        "symbol": "SBIN.NS",
+        "sector": "Banking",
+        "type": "BREAKDOWN",
+        "close": 946.0,
+        "ema20": 947.642028595974,
+        "candle_time": "2026-10-14 10:30:00+05:30"
+      },
+      {
+        "stock": "Bajaj Finance",
+        "symbol": "BAJFINANCE.NS",
+        "sector": "Finance",
+        "type": "BREAKOUT",
+        "close": 971.1500244140625,
+        "ema20": 971.0806116619882,
+        "candle_time": "2026-10-14 10:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
