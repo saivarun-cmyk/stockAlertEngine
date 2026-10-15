@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260909_045605",
-    "timestamp_ist": "2026-09-09T04:56:05.948752+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260909_065648",
     "timestamp_ist": "2026-09-09T06:56:48.964981+05:30",
     "stocks_scanned": 0,
@@ -2829,5 +2819,45 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20261015_111807",
+    "timestamp_ist": "2026-10-15T11:18:20.760382+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 3,
+    "alerts": [
+      {
+        "stock": "DLF",
+        "symbol": "DLF.NS",
+        "sector": "Realty",
+        "type": "BREAKDOWN",
+        "close": 664.2999877929688,
+        "ema20": 665.3280971467555,
+        "candle_time": "2026-10-15 11:00:00+05:30"
+      },
+      {
+        "stock": "Hindalco",
+        "symbol": "HINDALCO.NS",
+        "sector": "Metals",
+        "type": "BREAKDOWN",
+        "close": 885.5499877929688,
+        "ema20": 887.1525324690115,
+        "candle_time": "2026-10-15 11:00:00+05:30"
+      },
+      {
+        "stock": "Laurus Labs",
+        "symbol": "LAURUSLABS.NS",
+        "sector": "Pharma",
+        "type": "BREAKDOWN",
+        "close": 2030.0999755859375,
+        "ema20": 2034.5903828916712,
+        "candle_time": "2026-10-15 11:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
