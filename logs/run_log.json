@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260910_032251",
-    "timestamp_ist": "2026-09-10T03:22:51.338283+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260910_052934",
     "timestamp_ist": "2026-09-10T05:29:34.951600+05:30",
     "stocks_scanned": 0,
@@ -2857,5 +2847,45 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20261016_111128",
+    "timestamp_ist": "2026-10-16T11:11:37.315321+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 3,
+    "alerts": [
+      {
+        "stock": "LT",
+        "symbol": "LT.NS",
+        "sector": "Infrastructure",
+        "type": "BREAKDOWN",
+        "close": 3646.10009765625,
+        "ema20": 3646.463746625673,
+        "candle_time": "2026-10-16 11:00:00+05:30"
+      },
+      {
+        "stock": "SBIN",
+        "symbol": "SBIN.NS",
+        "sector": "Banking",
+        "type": "BREAKDOWN",
+        "close": 955.9000244140625,
+        "ema20": 956.3258548182611,
+        "candle_time": "2026-10-16 11:00:00+05:30"
+      },
+      {
+        "stock": "Kaynes",
+        "symbol": "KAYNES.NS",
+        "sector": "Electronics",
+        "type": "BREAKDOWN",
+        "close": 3260.0,
+        "ema20": 3267.2732899912735,
+        "candle_time": "2026-10-16 11:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
