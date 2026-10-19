@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260913_025046",
-    "timestamp_ist": "2026-09-13T02:50:46.348526+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260913_044300",
     "timestamp_ist": "2026-09-13T04:43:00.503160+05:30",
     "stocks_scanned": 0,
@@ -2788,5 +2778,36 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20261019_101549",
+    "timestamp_ist": "2026-10-19T10:16:05.977340+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 2,
+    "alerts": [
+      {
+        "stock": "BSE",
+        "symbol": "BSE.NS",
+        "sector": "Finance",
+        "type": "BREAKOUT",
+        "close": 3366.5,
+        "ema20": 3366.176592348056,
+        "candle_time": "2026-10-19 10:00:00+05:30"
+      },
+      {
+        "stock": "Bajaj Finance",
+        "symbol": "BAJFINANCE.NS",
+        "sector": "Finance",
+        "type": "BREAKDOWN",
+        "close": 973.1500244140625,
+        "ema20": 973.9927599976593,
+        "candle_time": "2026-10-19 10:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
