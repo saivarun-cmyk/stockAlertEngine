@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260914_192313",
-    "timestamp_ist": "2026-09-14T19:23:13.070732+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260915_004048",
     "timestamp_ist": "2026-09-15T00:40:48.837505+05:30",
     "stocks_scanned": 0,
@@ -2827,5 +2817,36 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20261021_113422",
+    "timestamp_ist": "2026-10-21T11:34:33.514380+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 2,
+    "alerts": [
+      {
+        "stock": "LT",
+        "symbol": "LT.NS",
+        "sector": "Infrastructure",
+        "type": "BREAKDOWN",
+        "close": 3657.0,
+        "ema20": 3662.7446392233833,
+        "candle_time": "2026-10-21 11:30:00+05:30"
+      },
+      {
+        "stock": "OFSS",
+        "symbol": "OFSS.NS",
+        "sector": "IT",
+        "type": "BREAKDOWN",
+        "close": 10243.0,
+        "ema20": 10256.272389571779,
+        "candle_time": "2026-10-21 11:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
