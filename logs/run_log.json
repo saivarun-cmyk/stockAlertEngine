@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260915_221347",
-    "timestamp_ist": "2026-09-15T22:13:47.463880+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260916_012151",
     "timestamp_ist": "2026-09-16T01:21:51.844540+05:30",
     "stocks_scanned": 0,
@@ -2846,5 +2836,72 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20261022_125654",
+    "timestamp_ist": "2026-10-22T12:57:01.761359+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 6,
+    "alerts": [
+      {
+        "stock": "Hero Motocorp",
+        "symbol": "HEROMOTOCO.NS",
+        "sector": "Automobile",
+        "type": "BREAKOUT",
+        "close": 5172.0,
+        "ema20": 5165.333699303867,
+        "candle_time": "2026-10-22 12:30:00+05:30"
+      },
+      {
+        "stock": "Bajaj Auto",
+        "symbol": "BAJAJ-AUTO.NS",
+        "sector": "Automobile",
+        "type": "BREAKOUT",
+        "close": 10199.0,
+        "ema20": 10151.073093255183,
+        "candle_time": "2026-10-22 12:30:00+05:30"
+      },
+      {
+        "stock": "HAL",
+        "symbol": "HAL.NS",
+        "sector": "Defence",
+        "type": "BREAKOUT",
+        "close": 4890.2001953125,
+        "ema20": 4872.557060368824,
+        "candle_time": "2026-10-22 12:30:00+05:30"
+      },
+      {
+        "stock": "SBIN",
+        "symbol": "SBIN.NS",
+        "sector": "Banking",
+        "type": "BREAKOUT",
+        "close": 968.7000122070312,
+        "ema20": 966.0193796212993,
+        "candle_time": "2026-10-22 12:30:00+05:30"
+      },
+      {
+        "stock": "Hindalco",
+        "symbol": "HINDALCO.NS",
+        "sector": "Metals",
+        "type": "BREAKOUT",
+        "close": 890.5,
+        "ema20": 889.601160900045,
+        "candle_time": "2026-10-22 12:30:00+05:30"
+      },
+      {
+        "stock": "Laurus Labs",
+        "symbol": "LAURUSLABS.NS",
+        "sector": "Pharma",
+        "type": "BREAKOUT",
+        "close": 2017.300048828125,
+        "ema20": 2014.6904064617777,
+        "candle_time": "2026-10-22 12:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
