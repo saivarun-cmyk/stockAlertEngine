@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20260919_194650",
-    "timestamp_ist": "2026-09-19T19:46:50.005657+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20260919_225247",
     "timestamp_ist": "2026-09-19T22:52:47.246822+05:30",
     "stocks_scanned": 0,
@@ -2815,5 +2805,45 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20261026_105346",
+    "timestamp_ist": "2026-10-26T10:53:53.664672+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 3,
+    "alerts": [
+      {
+        "stock": "ABB",
+        "symbol": "ABB.NS",
+        "sector": "Capital Goods",
+        "type": "BREAKOUT",
+        "close": 6225.0,
+        "ema20": 6224.8447022987,
+        "candle_time": "2026-10-26 10:30:00+05:30"
+      },
+      {
+        "stock": "Asian Paints",
+        "symbol": "ASIANPAINT.NS",
+        "sector": "Consumer",
+        "type": "BREAKDOWN",
+        "close": 2270.199951171875,
+        "ema20": 2279.519429998281,
+        "candle_time": "2026-10-26 10:30:00+05:30"
+      },
+      {
+        "stock": "ICICI Bank",
+        "symbol": "ICICIBANK.NS",
+        "sector": "Banking",
+        "type": "BREAKDOWN",
+        "close": 1383.199951171875,
+        "ema20": 1388.7310327537755,
+        "candle_time": "2026-10-26 10:30:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
