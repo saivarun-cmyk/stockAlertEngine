@@ -1,36 +1,5 @@
 [
   {
-    "run_id": "20260924_104416",
-    "timestamp_ist": "2026-09-24T10:44:25.072372+05:30",
-    "stocks_scanned": 40,
-    "alerts_sent": 2,
-    "alerts": [
-      {
-        "stock": "Kaynes",
-        "symbol": "KAYNES.NS",
-        "sector": "Electronics",
-        "type": "BREAKOUT",
-        "close": 3481.5,
-        "ema20": 3478.4535033124666,
-        "candle_time": "2026-09-24 10:30:00+05:30"
-      },
-      {
-        "stock": "Tata Elxsi",
-        "symbol": "TATAELXSI.NS",
-        "sector": "IT",
-        "type": "BREAKOUT",
-        "close": 3231.0,
-        "ema20": 3226.2254548930614,
-        "candle_time": "2026-09-24 10:30:00+05:30"
-      }
-    ],
-    "email_status": "both_failed",
-    "errors": [
-      "fetch_failed:LTM"
-    ],
-    "market_open": true
-  },
-  {
     "run_id": "20260924_154027",
     "timestamp_ist": "2026-09-24T15:40:38.726209+05:30",
     "stocks_scanned": 40,
@@ -2755,6 +2724,16 @@
   {
     "run_id": "20261101_121047",
     "timestamp_ist": "2026-11-01T12:10:47.847504+05:30",
+    "stocks_scanned": 0,
+    "alerts_sent": 0,
+    "alerts": [],
+    "email_status": "skipped_market_closed",
+    "errors": [],
+    "market_open": false
+  },
+  {
+    "run_id": "20261101_191921",
+    "timestamp_ist": "2026-11-01T19:19:21.858795+05:30",
     "stocks_scanned": 0,
     "alerts_sent": 0,
     "alerts": [],
