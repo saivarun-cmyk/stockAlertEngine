@@ -1,15 +1,5 @@
 [
   {
-    "run_id": "20261011_040821",
-    "timestamp_ist": "2026-10-11T04:08:21.773482+05:30",
-    "stocks_scanned": 0,
-    "alerts_sent": 0,
-    "alerts": [],
-    "email_status": "skipped_market_closed",
-    "errors": [],
-    "market_open": false
-  },
-  {
     "run_id": "20261011_064808",
     "timestamp_ist": "2026-10-11T06:48:08.314828+05:30",
     "stocks_scanned": 0,
@@ -2810,5 +2800,36 @@
     "email_status": "skipped_market_closed",
     "errors": [],
     "market_open": false
+  },
+  {
+    "run_id": "20261124_115814",
+    "timestamp_ist": "2026-11-24T11:58:21.146970+05:30",
+    "stocks_scanned": 40,
+    "alerts_sent": 2,
+    "alerts": [
+      {
+        "stock": "KPIT Technology",
+        "symbol": "KPITTECH.NS",
+        "sector": "IT",
+        "type": "BREAKDOWN",
+        "close": 525.5,
+        "ema20": 527.2400589284748,
+        "candle_time": "2026-11-23 15:00:00+05:30"
+      },
+      {
+        "stock": "Maruti",
+        "symbol": "MARUTI.NS",
+        "sector": "Automobile",
+        "type": "BREAKDOWN",
+        "close": 14010.0,
+        "ema20": 14038.311171227846,
+        "candle_time": "2026-11-23 15:00:00+05:30"
+      }
+    ],
+    "email_status": "both_failed",
+    "errors": [
+      "fetch_failed:LTM"
+    ],
+    "market_open": true
   }
 ]
